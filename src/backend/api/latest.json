@@ -1,166 +1,16 @@
 {
   "articles": [
     {
-      "author": "",
-      "category": "Government",
-      "collected_at": "2025-07-05T01:17:33.394694+00:00",
-      "compound_analysis": true,
-      "description": "NIH-funded breakthrough could enable targeted therapies for many neurological disorders.",
-      "expert_analysis": true,
-      "final_reasoning": "The article scores well across most criteria, demonstrating significance, credibility, and audience value. Its timeliness and presentation quality are also strong, making it suitable for publication.",
-      "final_score": 83.33,
-      "id": "165947062a5a07c65bca919476dd8aa3",
-      "processed_at": "2025-07-05T01:20:20.471969+00:00",
-      "published_date": "2025-07-05T01:17:33.394681+00:00",
-      "ranking_priority": "HIGH",
-      "recommendation": "ACCEPT",
-      "source": "NIH News Releases",
-      "source_id": "nih_ai_news",
-      "source_priority": 1,
-      "stage1_filter": {
-        "decision": "INCLUDE",
-        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:18:41.688987+00:00",
-        "reason": "Default include (unclear response)"
-      },
-      "stage2_decision": "ADVANCE",
-      "stage2_reasoning": {
-        "overall": "Filtered by compound analysis"
-      },
-      "stage2_score": 90,
-      "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:19:53.116771+00:00",
-        "audience_relevance": "important",
-        "category": "research",
-        "credibility": "high",
-        "expert_reasoning": "Breakthrough in gene delivery systems for neurological disorders",
-        "impact_level": "high",
-        "model": "llama-3.1-8b-instant",
-        "novelty": "novel",
-        "quality_score": 9,
-        "recommendation": "INCLUDE",
-        "stage": "stage3_expert"
-      },
-      "stage3_decision": "INCLUDE",
-      "stage4_evaluation": {
-        "audience_value": {
-          "reasoning": "The article provides actionable information and has educational value for readers interested in medical advancements and potential treatments for neurological disorders.",
-          "score": 85
-        },
-        "credibility_source": {
-          "reasoning": "The article is sourced from NIH News Releases, a reputable government organization known for factual accuracy and authoritative information in the field of medical research.",
-          "score": 95
-        },
-        "final_reasoning": "The article scores well across most criteria, demonstrating significance, credibility, and audience value. Its timeliness and presentation quality are also strong, making it suitable for publication.",
-        "presentation_quality": {
-          "reasoning": "The headline is clear, and the article is well-written, providing comprehensive coverage of the breakthrough and its potential implications.",
-          "score": 80
-        },
-        "ranking_priority": "HIGH",
-        "recommendation": "ACCEPT",
-        "significance_impact": {
-          "reasoning": "The breakthrough in gene delivery systems for cells in the brain and spinal cord has significant implications for treating neurological disorders, affecting many people worldwide.",
-          "score": 90
-        },
-        "timeliness_relevance": {
-          "reasoning": "The article is relatively recent and discusses a current development in medical research, making it timely and relevant to ongoing scientific discussions.",
-          "score": 80
-        },
-        "total_score": 83.33,
-        "uniqueness_novelty": {
-          "reasoning": "While the topic may have been covered in scientific journals, the NIH's announcement provides an official and authoritative perspective, offering a somewhat unique angle for a broader audience.",
-          "score": 70
-        }
-      },
-      "title": "Scientists design gene delivery systems for cells in the brain and spinal cord",
-      "url": "https://www.nih.gov/news-events/news-releases/scientists-design-gene-delivery-systems-cells-brain-spinal-cord"
-    },
-    {
-      "author": "Bappaditya Dey, Daniel Sorensen, Minjin Hwang, Sandip Halder",
-      "category": "Research",
-      "collected_at": "2025-07-05T01:17:13.380151+00:00",
-      "compound_analysis": true,
-      "description": "arXiv:2507.01999v1 Announce Type: new \nAbstract: Semiconductor manufacturing is an extremely complex process, characterized by thousands of interdependent parameters collected across diverse tools and process steps. Multi-variate time-series (MTS) analysis has emerged as a critical methodology for enabling real-time monitoring, fault detection, and predictive maintenance in such environments. However, anomaly prediction in semiconductor fabrication presents several critical challenges, including",
-      "expert_analysis": true,
-      "final_reasoning": "The article scores above the threshold due to its significance, credibility, and novelty. While it may not be timely or broadly appealing, its technical merits and relevance to a specialized audience justify its acceptance.",
-      "final_score": 78.33,
-      "id": "85c26d6ea7a6d256590d2bb4dc35448b",
-      "processed_at": "2025-07-05T01:22:02.570963+00:00",
-      "published_date": "2025-07-04T04:00:00+00:00",
-      "ranking_priority": "MEDIUM",
-      "recommendation": "ACCEPT",
-      "source": "cs.LG updates on arXiv.org",
-      "source_id": "arxiv_ml",
-      "source_priority": 1,
-      "stage1_filter": {
-        "decision": "INCLUDE",
-        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:25.979449+00:00",
-        "reason": "Novel multimodal misinformation detection approach"
-      },
-      "stage2_decision": "ADVANCE",
-      "stage2_reasoning": {
-        "overall": "Filtered by compound analysis"
-      },
-      "stage2_score": 92,
-      "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:07.803289+00:00",
-        "audience_relevance": "important",
-        "category": "research",
-        "credibility": "high",
-        "expert_reasoning": "Anomaly detection in semiconductor process time series",
-        "impact_level": "significant",
-        "model": "llama-3.1-8b-instant",
-        "novelty": "novel",
-        "quality_score": 8.2,
-        "recommendation": "INCLUDE",
-        "stage": "stage3_expert"
-      },
-      "stage3_decision": "INCLUDE",
-      "stage4_evaluation": {
-        "audience_value": {
-          "reasoning": "The article has educational value for those interested in AI applications in manufacturing, but its technical nature may limit its appeal to a broad audience.",
-          "score": 75
-        },
-        "credibility_source": {
-          "reasoning": "arXiv.org is a reputable source for scientific and technical papers, indicating a high level of credibility.",
-          "score": 90
-        },
-        "final_reasoning": "The article scores above the threshold due to its significance, credibility, and novelty. While it may not be timely or broadly appealing, its technical merits and relevance to a specialized audience justify its acceptance.",
-        "presentation_quality": {
-          "reasoning": "The headline is clear, but the article appears to be a technical abstract, which may not be considered 'well-written' or comprehensive in the context of general news reporting.",
-          "score": 60
-        },
-        "ranking_priority": "MEDIUM",
-        "recommendation": "ACCEPT",
-        "significance_impact": {
-          "reasoning": "The article addresses a critical issue in semiconductor manufacturing, which is a significant industry with far-reaching implications for technology and economy.",
-          "score": 80
-        },
-        "timeliness_relevance": {
-          "reasoning": "The topic is relevant to current advancements in manufacturing and AI, but the specific date of publication (2025-07-04) is in the future, making it not timely for current news.",
-          "score": 70
-        },
-        "total_score": 78.33,
-        "uniqueness_novelty": {
-          "reasoning": "The application of Continuous Wavelet Transform and Siamese Network to anomaly detection in semiconductor processes is a novel approach, not widely covered in general news.",
-          "score": 85
-        }
-      },
-      "title": "Continuous Wavelet Transform and Siamese Network-Based Anomaly Detection in Multi-variate Semiconductor Process Time Series",
-      "url": "https://arxiv.org/abs/2507.01999"
-    },
-    {
       "author": "Animesh Kumar Sharma, \nRahul Sharma",
       "category": "Research",
-      "collected_at": "2025-07-05T01:17:44.626732+00:00",
+      "collected_at": "2025-07-05T04:21:51.184598+00:00",
       "compound_analysis": true,
       "description": "AI Magazine, Volume 46, Issue 2, Summer 2025.",
       "expert_analysis": true,
-      "final_reasoning": "The article scores above 70 across the evaluation criteria, demonstrating significance, credibility, and audience value. While it has some limitations in terms of timeliness and presentation quality, its overall strengths make it suitable for acceptance.",
-      "final_score": 77.5,
+      "final_reasoning": "The article scores well across the criteria, particularly in significance, credibility, and audience value. While there's some uncertainty around timeliness and presentation quality without the full content, the overall score suggests it's a solid piece of research worth accepting.",
+      "final_score": 80,
       "id": "ed9343fa10958e3512a5050370a25b8d",
-      "processed_at": "2025-07-05T01:20:43.946380+00:00",
+      "processed_at": "2025-07-05T04:24:59.288606+00:00",
       "published_date": "2025-07-04T10:20:16+00:00",
       "ranking_priority": "MEDIUM",
       "recommendation": "ACCEPT",
@@ -170,16 +20,16 @@
       "stage1_filter": {
         "decision": "INCLUDE",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:10.408737+00:00",
+        "processed_at": "2025-07-05T04:23:26.208606+00:00",
         "reason": "Innovative engineering biology funding"
       },
       "stage2_decision": "ADVANCE",
       "stage2_reasoning": {
         "overall": "Filtered by compound analysis"
       },
-      "stage2_score": 90,
+      "stage2_score": 95,
       "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:01.919190+00:00",
+        "analyzed_at": "2025-07-05T04:24:17.339935+00:00",
         "audience_relevance": "important",
         "category": "research",
         "credibility": "high",
@@ -194,17 +44,17 @@
       "stage3_decision": "INCLUDE",
       "stage4_evaluation": {
         "audience_value": {
-          "reasoning": "The article provides a comparative analysis that could be valuable for policymakers, researchers, and stakeholders interested in AI governance, offering educational value and utility for decision-making.",
+          "reasoning": "The article likely provides actionable information and educational value for policymakers, researchers, and stakeholders interested in AI governance, particularly in the context of BRICS nations.",
           "score": 85
         },
         "credibility_source": {
           "reasoning": "The article is sourced from Wiley's AI Magazine, a reputable publication in the field of artificial intelligence, suggesting a high level of credibility and factual accuracy.",
           "score": 90
         },
-        "final_reasoning": "The article scores above 70 across the evaluation criteria, demonstrating significance, credibility, and audience value. While it has some limitations in terms of timeliness and presentation quality, its overall strengths make it suitable for acceptance.",
+        "final_reasoning": "The article scores well across the criteria, particularly in significance, credibility, and audience value. While there's some uncertainty around timeliness and presentation quality without the full content, the overall score suggests it's a solid piece of research worth accepting.",
         "presentation_quality": {
-          "reasoning": "The headline is clear, but the description lacks detail about the article's findings or insights. The quality of writing is not directly assessable from the provided information, but the fact that it's from a recognized publication suggests a certain level of quality.",
-          "score": 65
+          "reasoning": "The title is clear, and the description indicates a well-structured article. However, the actual writing quality and comprehensiveness can't be fully assessed without the content.",
+          "score": 80
         },
         "ranking_priority": "MEDIUM",
         "recommendation": "ACCEPT",
@@ -213,12 +63,12 @@
           "score": 80
         },
         "timeliness_relevance": {
-          "reasoning": "The article is published in Summer 2025, and its relevance is tied to recent developments in AI policy frameworks. However, the exact date of publication within the summer is not specified, making it somewhat less timely.",
+          "reasoning": "The article is published in Summer 2025, and while the exact content isn't available, the topic of AI governance is continually relevant. However, the timeliness might be somewhat diminished as it's not breaking news.",
           "score": 70
         },
-        "total_score": 77.5,
+        "total_score": 80,
         "uniqueness_novelty": {
-          "reasoning": "The comparative analysis of AI policy frameworks in BRICS nations offers a unique angle, as it focuses on a specific group of emerging economies. However, the topic of AI governance is not entirely novel.",
+          "reasoning": "The comparative analysis of policy frameworks in BRICS nations offers a unique angle on AI governance. However, the novelty depends on whether similar analyses have been recently published.",
           "score": 75
         }
       },
@@ -226,242 +76,17 @@
       "url": "https://onlinelibrary.wiley.com/doi/10.1002/aaai.70010?af=R"
     },
     {
-      "author": "Mohammad Ali Alomrani, Yingxue Zhang, Derek Li, Qianyi Sun, Soumyasundar Pal, Zhanguang Zhang, Yaochen Hu, Rohan Deepak Ajwani, Antonios Valkanas, Raika Karimi, Peng Cheng, Yunzhou Wang, Pengyi Liao, Hanrui Huang, Bin Wang, Jianye Hao, Mark Coates",
-      "category": "Research",
-      "collected_at": "2025-07-05T01:17:13.237121+00:00",
-      "compound_analysis": true,
-      "description": "arXiv:2507.02076v1 Announce Type: new \nAbstract: Large language models (LLMs) have rapidly progressed into general-purpose agents capable of solving a broad spectrum of tasks. However, current models remain inefficient at reasoning: they apply fixed inference-time compute regardless of task complexity, often overthinking simple problems while underthinking hard ones. This survey presents a comprehensive review of efficient test-time compute (TTC) strategies, which aim to improve the computationa",
-      "expert_analysis": true,
-      "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and uniqueness. While it may not excel in timeliness or presentation quality, its overall value to the AI research community justifies its acceptance.",
-      "final_score": 77.5,
-      "id": "e06e6b45717a91c4bddad188455174e7",
-      "processed_at": "2025-07-05T01:21:07.391190+00:00",
-      "published_date": "2025-07-04T04:00:00+00:00",
-      "ranking_priority": "MEDIUM",
-      "recommendation": "ACCEPT",
-      "source": "cs.AI updates on arXiv.org",
-      "source_id": "arxiv_ai",
-      "source_priority": 1,
-      "stage1_filter": {
-        "decision": "INCLUDE",
-        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:17.115184+00:00",
-        "reason": "Default include (unclear response)"
-      },
-      "stage2_decision": "ADVANCE",
-      "stage2_reasoning": {
-        "overall": "Filtered by compound analysis"
-      },
-      "stage2_score": 85,
-      "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:04.856322+00:00",
-        "audience_relevance": "important",
-        "category": "research",
-        "credibility": "high",
-        "expert_reasoning": "Important AI research development",
-        "impact_level": "significant",
-        "model": "llama-3.1-8b-instant",
-        "novelty": "novel",
-        "quality_score": 8.5,
-        "recommendation": "INCLUDE",
-        "stage": "stage3_expert"
-      },
-      "stage3_decision": "INCLUDE",
-      "stage4_evaluation": {
-        "audience_value": {
-          "reasoning": "The article has educational value for researchers and developers in AI, particularly those working with LLMs, by providing insights into improving computational efficiency. However, its actionable information is somewhat specialized.",
-          "score": 75
-        },
-        "credibility_source": {
-          "reasoning": "The source is arXiv.org, a reputable platform for scientific preprints, particularly in fields like computer science and AI, lending credibility to the article's technical content and accuracy.",
-          "score": 90
-        },
-        "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and uniqueness. While it may not excel in timeliness or presentation quality, its overall value to the AI research community justifies its acceptance.",
-        "presentation_quality": {
-          "reasoning": "The article's presentation is clear in its abstract, but the overall quality of writing and comprehensiveness can be considered average due to its technical nature and the absence of a full-text evaluation. The headline is straightforward.",
-          "score": 65
-        },
-        "ranking_priority": "MEDIUM",
-        "recommendation": "ACCEPT",
-        "significance_impact": {
-          "reasoning": "The article discusses a significant issue in the field of AI, specifically the inefficiency of large language models (LLMs) in reasoning tasks, and surveys strategies to improve test-time compute, which has potential long-term consequences for AI development.",
-          "score": 80
-        },
-        "timeliness_relevance": {
-          "reasoning": "The article is based on a recent arXiv publication (2025-07-04), indicating it is a recent development in the field, but its relevance may be more specific to researchers in AI rather than being breaking news for a broad audience.",
-          "score": 70
-        },
-        "total_score": 77.5,
-        "uniqueness_novelty": {
-          "reasoning": "The article provides a comprehensive review of efficient test-time compute strategies in LLMs, offering a unique synthesis of current research on this topic, which may not be widely covered in a single document elsewhere.",
-          "score": 85
-        }
-      },
-      "title": "Reasoning on a Budget: A Survey of Adaptive and Controllable Test-Time Compute in LLMs",
-      "url": "https://arxiv.org/abs/2507.02076"
-    },
-    {
-      "author": "Gautam Kishore Shahi",
-      "category": "Research",
-      "collected_at": "2025-07-05T01:17:13.379966+00:00",
-      "compound_analysis": true,
-      "description": "arXiv:2507.01984v1 Announce Type: new \nAbstract: Amid a tidal wave of misinformation flooding social media during elections and crises, extensive research has been conducted on misinformation detection, primarily focusing on text-based or image-based approaches. However, only a few studies have explored multimodal feature combinations, such as integrating text and images for building a classification model to detect misinformation. This study investigates the effectiveness of different multimoda",
-      "expert_analysis": true,
-      "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and uniqueness. While it has some limitations in terms of timeliness, audience value, and presentation quality, its overall quality justifies acceptance.",
-      "final_score": 77.5,
-      "id": "e01845d3aaca7890bef71dfc23005184",
-      "processed_at": "2025-07-05T01:22:25.790552+00:00",
-      "published_date": "2025-07-04T04:00:00+00:00",
-      "ranking_priority": "MEDIUM",
-      "recommendation": "ACCEPT",
-      "source": "cs.LG updates on arXiv.org",
-      "source_id": "arxiv_ml",
-      "source_priority": 1,
-      "stage1_filter": {
-        "decision": "INCLUDE",
-        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:25.979439+00:00",
-        "reason": "Default include (unclear response)"
-      },
-      "stage2_decision": "ADVANCE",
-      "stage2_reasoning": {
-        "overall": "Filtered by compound analysis"
-      },
-      "stage2_score": 85,
-      "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:10.726272+00:00",
-        "audience_relevance": "important",
-        "category": "research",
-        "credibility": "high",
-        "expert_reasoning": "Important AI research development",
-        "impact_level": "significant",
-        "model": "llama-3.1-8b-instant",
-        "novelty": "novel",
-        "quality_score": 8.5,
-        "recommendation": "INCLUDE",
-        "stage": "stage3_expert"
-      },
-      "stage3_decision": "INCLUDE",
-      "stage4_evaluation": {
-        "audience_value": {
-          "reasoning": "The research has educational value and potential utility for decision-making, particularly for those interested in or working on misinformation detection. However, its actionable information may be limited to a specific audience.",
-          "score": 75
-        },
-        "credibility_source": {
-          "reasoning": "The article is sourced from arXiv.org, a reputable platform for scientific and research publications, indicating a high level of credibility and factual accuracy.",
-          "score": 90
-        },
-        "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and uniqueness. While it has some limitations in terms of timeliness, audience value, and presentation quality, its overall quality justifies acceptance.",
-        "presentation_quality": {
-          "reasoning": "The headline is clear, but the article's abstract lacks comprehensive coverage and is somewhat technical, which might limit its accessibility to a broader audience.",
-          "score": 60
-        },
-        "ranking_priority": "MEDIUM",
-        "recommendation": "ACCEPT",
-        "significance_impact": {
-          "reasoning": "The article addresses a critical issue of misinformation detection, which has significant global importance and long-term consequences, especially during elections and crises.",
-          "score": 80
-        },
-        "timeliness_relevance": {
-          "reasoning": "The topic is relevant and timely, given the ongoing concerns about misinformation. However, the specific date and context of the publication may affect its timeliness.",
-          "score": 70
-        },
-        "total_score": 77.5,
-        "uniqueness_novelty": {
-          "reasoning": "The article explores a unique angle by investigating multimodal feature combinations for misinformation detection, which is not widely covered in existing research.",
-          "score": 85
-        }
-      },
-      "title": "Multimodal Misinformation Detection Using Early Fusion of Linguistic, Visual, and Social Features",
-      "url": "https://arxiv.org/abs/2507.01984"
-    },
-    {
-      "author": "Mingyu Wu, Zhaoguo Wang, Jiabin Wang, Zhiyuan Dong, Jingkai Yang, Qingting Li, Tianyu Huang, Lei Zhao, Mingqiang Li, Fei Wang, Chunhai Fan, Haibo Chen",
-      "category": "Research",
-      "collected_at": "2025-07-05T01:17:13.238129+00:00",
-      "compound_analysis": true,
-      "description": "arXiv:2507.02379v1 Announce Type: new \nAbstract: Autonomous scientific research, capable of independently conducting complex experiments and serving non-specialists, represents a long-held aspiration. Achieving it requires a fundamental paradigm shift driven by artificial intelligence (AI). While autonomous experimental systems are emerging, they remain confined to areas featuring singular objectives and well-defined, simple experimental workflows, such as chemical synthesis and catalysis. We pr",
-      "expert_analysis": true,
-      "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and uniqueness. While it has some limitations in terms of timeliness, audience value, and presentation quality, its overall quality justifies acceptance.",
-      "final_score": 77,
-      "id": "1f99f4dd032b9d4643e126adf613578d",
-      "processed_at": "2025-07-05T01:21:32.397968+00:00",
-      "published_date": "2025-07-04T04:00:00+00:00",
-      "ranking_priority": "MEDIUM",
-      "recommendation": "ACCEPT",
-      "source": "cs.AI updates on arXiv.org",
-      "source_id": "arxiv_ai",
-      "source_priority": 1,
-      "stage1_filter": {
-        "decision": "INCLUDE",
-        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:21.549460+00:00",
-        "reason": "Default include (unclear response)"
-      },
-      "stage2_decision": "ADVANCE",
-      "stage2_reasoning": {
-        "overall": "Filtered by compound analysis"
-      },
-      "stage2_score": 85,
-      "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:04.856341+00:00",
-        "audience_relevance": "important",
-        "category": "research",
-        "credibility": "high",
-        "expert_reasoning": "AI-native experimental laboratory for autonomous biomolecular engineering",
-        "impact_level": "high",
-        "model": "llama-3.1-8b-instant",
-        "novelty": "novel",
-        "quality_score": 9.2,
-        "recommendation": "INCLUDE",
-        "stage": "stage3_expert"
-      },
-      "stage3_decision": "INCLUDE",
-      "stage4_evaluation": {
-        "audience_value": {
-          "reasoning": "The article has educational value for those interested in AI and biomolecular engineering. However, its actionable information and decision-making utility are limited for a general audience.",
-          "score": 75
-        },
-        "credibility_source": {
-          "reasoning": "The source is arXiv.org, a reputable platform for scientific publications, and the article is categorized under cs.AI updates, suggesting a credible and authoritative source.",
-          "score": 90
-        },
-        "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and uniqueness. While it has some limitations in terms of timeliness, audience value, and presentation quality, its overall quality justifies acceptance.",
-        "presentation_quality": {
-          "reasoning": "The article's headline and description are clear, but the content appears to be a truncated abstract, lacking comprehensive coverage and detailed explanation.",
-          "score": 60
-        },
-        "ranking_priority": "MEDIUM",
-        "recommendation": "ACCEPT",
-        "significance_impact": {
-          "reasoning": "The article discusses a significant advancement in AI-driven autonomous biomolecular engineering, which has the potential to revolutionize scientific research and impact various fields.",
-          "score": 80
-        },
-        "timeliness_relevance": {
-          "reasoning": "The article is based on a recent arXiv publication, indicating it is relatively up-to-date. However, its relevance to breaking news or time-sensitive topics is limited.",
-          "score": 70
-        },
-        "total_score": 77,
-        "uniqueness_novelty": {
-          "reasoning": "The article presents a novel approach to autonomous biomolecular engineering, which is not widely covered in mainstream news, offering a unique angle.",
-          "score": 85
-        }
-      },
-      "title": "An AI-native experimental laboratory for autonomous biomolecular engineering",
-      "url": "https://arxiv.org/abs/2507.02379"
-    },
-    {
       "author": "",
       "category": "Government",
-      "collected_at": "2025-07-05T01:17:33.394530+00:00",
+      "collected_at": "2025-07-05T04:22:08.216605+00:00",
       "compound_analysis": true,
-      "description": "RTX is a non-addictive pain therapy derived from a cactus-like plant.",
+      "description": "Studies demonstrate the effect of retinal injury on visual processing pathways, providing insights for the development of vision restoration therapies.",
       "expert_analysis": true,
-      "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and audience value, despite some limitations in timeliness and presentation quality",
-      "final_score": 77,
-      "id": "ca1e5d931f7eea43d49eed245535e1c7",
-      "processed_at": "2025-07-05T01:20:17.127373+00:00",
-      "published_date": "2025-07-05T01:17:33.394516+00:00",
+      "final_reasoning": "The article scores above 70 across most criteria, demonstrating significance, credibility, and good presentation quality. While it may lack in timeliness and uniqueness, its overall value and impact justify its acceptance.",
+      "final_score": 78.33,
+      "id": "78baca70d5bcd773397397c7d4f6287c",
+      "processed_at": "2025-07-05T04:24:39.266316+00:00",
+      "published_date": "2025-07-05T04:22:08.216591+00:00",
       "ranking_priority": "MEDIUM",
       "recommendation": "ACCEPT",
       "source": "NIH News Releases",
@@ -470,170 +95,20 @@
       "stage1_filter": {
         "decision": "INCLUDE",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:18:41.688992+00:00",
-        "reason": "Gene delivery system for brain therapies"
+        "processed_at": "2025-07-05T04:22:59.691235+00:00",
+        "reason": "Default include (unclear response)"
       },
       "stage2_decision": "ADVANCE",
       "stage2_reasoning": {
         "overall": "Filtered by compound analysis"
       },
-      "stage2_score": 95,
+      "stage2_score": 88,
       "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:19:53.116754+00:00",
+        "analyzed_at": "2025-07-05T04:24:08.315606+00:00",
         "audience_relevance": "important",
         "category": "research",
         "credibility": "high",
-        "expert_reasoning": "Important AI research development",
-        "impact_level": "significant",
-        "model": "llama-3.1-8b-instant",
-        "novelty": "novel",
-        "quality_score": 8.5,
-        "recommendation": "INCLUDE",
-        "stage": "stage3_expert"
-      },
-      "stage3_decision": "INCLUDE",
-      "stage4_evaluation": {
-        "audience_value": {
-          "reasoning": "The article provides actionable information about a non-addictive pain therapy, offering educational value and potential decision-making utility for those affected by cancer pain",
-          "score": 85
-        },
-        "credibility_source": {
-          "reasoning": "The NIH is a reputable organization, and the news release is an authoritative source, indicating high factual accuracy",
-          "score": 90
-        },
-        "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and audience value, despite some limitations in timeliness and presentation quality",
-        "presentation_quality": {
-          "reasoning": "The headline is clear, and the writing is straightforward, but the coverage is not comprehensive, lacking detailed analysis or expert opinions",
-          "score": 75
-        },
-        "ranking_priority": "MEDIUM",
-        "recommendation": "ACCEPT",
-        "significance_impact": {
-          "reasoning": "Cancer pain affects many people worldwide, and a promising new treatment has significant global importance and long-term consequences",
-          "score": 80
-        },
-        "timeliness_relevance": {
-          "reasoning": "While the treatment is promising, the news is not breaking, and the publication date is not recent, which reduces its timeliness",
-          "score": 60
-        },
-        "total_score": 77,
-        "uniqueness_novelty": {
-          "reasoning": "The article reports on a unique treatment derived from a cactus-like plant, but the angle is not entirely exclusive or widely unknown",
-          "score": 70
-        }
-      },
-      "title": "NIH scientists pioneer promising treatment for intractable cancer pain",
-      "url": "https://www.nih.gov/news-events/news-releases/nih-scientists-pioneer-promising-treatment-intractable-cancer-pain"
-    },
-    {
-      "author": "thunderbong",
-      "category": "Community",
-      "collected_at": "2025-07-05T01:17:26.577535+00:00",
-      "compound_analysis": true,
-      "description": "Article URL: https://www.ibm.com/think/news/ai-ethics-layer\nComments URL: https://news.ycombinator.com/item?id=44466956\nPoints: 2\n# Comments: 0",
-      "expert_analysis": true,
-      "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and audience value. While timeliness and uniqueness are moderate, the overall quality justifies acceptance.",
-      "final_score": 77,
-      "id": "d8257d39c000520caeaed3de28ce65bd",
-      "processed_at": "2025-07-05T01:20:33.928947+00:00",
-      "published_date": "2025-07-04T18:51:53+00:00",
-      "ranking_priority": "MEDIUM",
-      "recommendation": "ACCEPT",
-      "source": "Hacker News - Newest: \"\"AI\" \"machine\" \"learning\" \"startup\"\"",
-      "source_id": "hacker_news_ai",
-      "source_priority": 2,
-      "stage1_filter": {
-        "decision": "INCLUDE",
-        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:18:59.483106+00:00",
-        "reason": "Novel AI framework development"
-      },
-      "stage2_decision": "ADVANCE",
-      "stage2_reasoning": {
-        "overall": "Filtered by compound analysis"
-      },
-      "stage2_score": 87,
-      "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:19:58.990966+00:00",
-        "audience_relevance": "important",
-        "category": "research",
-        "credibility": "high",
-        "expert_reasoning": "Important AI research development",
-        "impact_level": "significant",
-        "model": "llama-3.1-8b-instant",
-        "novelty": "novel",
-        "quality_score": 8.5,
-        "recommendation": "INCLUDE",
-        "stage": "stage3_expert"
-      },
-      "stage3_decision": "INCLUDE",
-      "stage4_evaluation": {
-        "audience_value": {
-          "reasoning": "The topic of AI ethics has significant educational value and utility for decision-making, particularly for those in tech and business, suggesting high audience value.",
-          "score": 85
-        },
-        "credibility_source": {
-          "reasoning": "The article is sourced from IBM, a reputable organization known for its work in technology and AI, suggesting high credibility and factual accuracy.",
-          "score": 90
-        },
-        "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and audience value. While timeliness and uniqueness are moderate, the overall quality justifies acceptance.",
-        "presentation_quality": {
-          "reasoning": "The title 'The AI Ethics Layer' is clear, and being from IBM, it's likely well-written. However, the actual content quality can't be assessed from the snippet provided.",
-          "score": 75
-        },
-        "ranking_priority": "MEDIUM",
-        "recommendation": "ACCEPT",
-        "significance_impact": {
-          "reasoning": "The article discusses AI ethics, a topic of global importance with long-term consequences, affecting many people and industries.",
-          "score": 80
-        },
-        "timeliness_relevance": {
-          "reasoning": "The article was published in July 2025, and while AI ethics is a relevant topic, there's no indication it's breaking news or a recent development. The timeliness is moderate.",
-          "score": 60
-        },
-        "total_score": 77,
-        "uniqueness_novelty": {
-          "reasoning": "The concept of an 'AI Ethics Layer' might offer a unique angle on AI ethics, but without the full content, it's hard to assess its novelty. It's not widely discussed in the provided snippet.",
-          "score": 70
-        }
-      },
-      "title": "The AI Ethics Layer",
-      "url": "https://www.ibm.com/think/news/ai-ethics-layer"
-    },
-    {
-      "author": "Daniel Durstewitz, Bruno Averbeck, Georgia Koppe",
-      "category": "Research",
-      "collected_at": "2025-07-05T01:17:13.237320+00:00",
-      "compound_analysis": true,
-      "description": "arXiv:2507.02103v1 Announce Type: new \nAbstract: Modern AI models, such as large language models, are usually trained once on a huge corpus of data, potentially fine-tuned for a specific task, and then deployed with fixed parameters. Their training is costly, slow, and gradual, requiring billions of repetitions. In stark contrast, animals continuously adapt to the ever-changing contingencies in their environments. This is particularly important for social species, where behavioral policies and r",
-      "expert_analysis": true,
-      "final_reasoning": "The article has a good balance of significance, timeliness, credibility, uniqueness, and audience value, making it suitable for publication. However, its presentation quality could be improved.",
-      "final_score": 77,
-      "id": "1e02442af188af906ae265a76831ec8c",
-      "processed_at": "2025-07-05T01:21:05.697627+00:00",
-      "published_date": "2025-07-04T04:00:00+00:00",
-      "ranking_priority": "MEDIUM",
-      "recommendation": "ACCEPT",
-      "source": "cs.AI updates on arXiv.org",
-      "source_id": "arxiv_ai",
-      "source_priority": 1,
-      "stage1_filter": {
-        "decision": "INCLUDE",
-        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:17.115195+00:00",
-        "reason": "Survey on adaptive compute in LLMs"
-      },
-      "stage2_decision": "ADVANCE",
-      "stage2_reasoning": {
-        "overall": "Filtered by compound analysis"
-      },
-      "stage2_score": 92,
-      "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:01.919224+00:00",
-        "audience_relevance": "important",
-        "category": "research",
-        "credibility": "high",
-        "expert_reasoning": "Important AI research development",
+        "expert_reasoning": "Important AI-assisted vision restoration research",
         "impact_level": "significant",
         "model": "llama-3.1-8b-instant",
         "novelty": "novel",
@@ -644,371 +119,71 @@
       "stage3_decision": "INCLUDE",
       "stage4_evaluation": {
         "audience_value": {
-          "reasoning": "The article has educational value for those interested in AI and neuroscience, but its technical nature may limit its appeal to a broader audience.",
+          "reasoning": "The article provides insights into the development of vision restoration therapies, offering educational value and potential decision-making utility for those interested in medical advancements or affected by visual impairments.",
           "score": 75
         },
         "credibility_source": {
-          "reasoning": "The article is sourced from arXiv.org, a reputable platform for scientific preprints, and is related to AI research, indicating a high level of credibility.",
-          "score": 90
+          "reasoning": "The article is sourced from NIH News Releases, a reputable government organization known for authoritative and factually accurate information.",
+          "score": 95
         },
-        "final_reasoning": "The article has a good balance of significance, timeliness, credibility, uniqueness, and audience value, making it suitable for publication. However, its presentation quality could be improved.",
+        "final_reasoning": "The article scores above 70 across most criteria, demonstrating significance, credibility, and good presentation quality. While it may lack in timeliness and uniqueness, its overall value and impact justify its acceptance.",
         "presentation_quality": {
-          "reasoning": "The article's presentation is clear but lacks a detailed explanation, and it appears to be more of an abstract than a fully developed news article.",
-          "score": 60
-        },
-        "ranking_priority": "MEDIUM",
-        "recommendation": "ACCEPT",
-        "significance_impact": {
-          "reasoning": "The article discusses the potential for neuroscience to improve AI learning in changing environments, which has significant implications for AI development and its applications.",
-          "score": 80
-        },
-        "timeliness_relevance": {
-          "reasoning": "The topic is relevant to current AI research, but the article is based on an arXiv preprint, which may not be considered 'breaking news'.",
-          "score": 70
-        },
-        "total_score": 77,
-        "uniqueness_novelty": {
-          "reasoning": "The article presents a unique angle by exploring how neuroscience can inform AI learning, which is not a widely covered topic in the context of AI research.",
-          "score": 85
-        }
-      },
-      "title": "What Neuroscience Can Teach AI About Learning in Continuously Changing Environments",
-      "url": "https://arxiv.org/abs/2507.02103"
-    },
-    {
-      "author": "Amogh Mannekote, Adam Davies, Guohao Li, Kristy Elizabeth Boyer, ChengXiang Zhai, Bonnie J Dorr, Francesco Pinto",
-      "category": "Research",
-      "collected_at": "2025-07-05T01:17:13.237684+00:00",
-      "compound_analysis": true,
-      "description": "arXiv:2507.02197v1 Announce Type: new \nAbstract: As LLMs are increasingly studied as role-playing agents to generate synthetic data for human behavioral research, ensuring that their outputs remain coherent with their assigned roles has become a critical concern. In this paper, we investigate how consistently LLM-based role-playing agents' stated beliefs about the behavior of the people they are asked to role-play (\"what they say\") correspond to their actual behavior during role-play (\"how they",
-      "expert_analysis": true,
-      "final_reasoning": "The article scores above 70, indicating it is of good quality and relevance, particularly for its significance and credibility. While its presentation quality could be improved for a broader audience, it is suitable for acceptance given its value to the AI research community.",
-      "final_score": 77,
-      "id": "b1eb0899feecf3d17302639be57775d4",
-      "processed_at": "2025-07-05T01:21:25.824272+00:00",
-      "published_date": "2025-07-04T04:00:00+00:00",
-      "ranking_priority": "MEDIUM",
-      "recommendation": "ACCEPT",
-      "source": "cs.AI updates on arXiv.org",
-      "source_id": "arxiv_ai",
-      "source_priority": 1,
-      "stage1_filter": {
-        "decision": "INCLUDE",
-        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:19.283421+00:00",
-        "reason": "Default include (unclear response)"
-      },
-      "stage2_decision": "ADVANCE",
-      "stage2_reasoning": {
-        "overall": "Filtered by compound analysis"
-      },
-      "stage2_score": 75,
-      "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:04.856334+00:00",
-        "audience_relevance": "important",
-        "category": "research",
-        "credibility": "high",
-        "expert_reasoning": "AI role-playing agents research",
-        "impact_level": "moderate",
-        "model": "llama-3.1-8b-instant",
-        "novelty": "incremental",
-        "quality_score": 7.8,
-        "recommendation": "INCLUDE",
-        "stage": "stage3_expert"
-      },
-      "stage3_decision": "INCLUDE",
-      "stage4_evaluation": {
-        "audience_value": {
-          "reasoning": "The article has educational value and decision-making utility for researchers in AI and related fields, providing insights into the behavior of LLM-based agents.",
-          "score": 75
-        },
-        "credibility_source": {
-          "reasoning": "The article is sourced from arXiv.org, a reputable platform for electronic preprints in physics, mathematics, computer science, and related disciplines, indicating a high level of credibility and factual accuracy.",
-          "score": 90
-        },
-        "final_reasoning": "The article scores above 70, indicating it is of good quality and relevance, particularly for its significance and credibility. While its presentation quality could be improved for a broader audience, it is suitable for acceptance given its value to the AI research community.",
-        "presentation_quality": {
-          "reasoning": "The headline is clear, but the article appears to be more of an abstract or a summary of a research paper rather than a fully developed news article, potentially lacking in comprehensive coverage for a general audience.",
-          "score": 60
-        },
-        "ranking_priority": "MEDIUM",
-        "recommendation": "ACCEPT",
-        "significance_impact": {
-          "reasoning": "The article explores the consistency of LLM-based role-playing agents, which is crucial for their application in human behavioral research, impacting the field of AI and potentially many areas where AI is used.",
-          "score": 80
-        },
-        "timeliness_relevance": {
-          "reasoning": "The topic is relevant to current developments in AI and LLMs, but the specific publication date and whether it's breaking news are not clear; however, the topic is timely given the increasing use of LLMs.",
-          "score": 70
-        },
-        "total_score": 77,
-        "uniqueness_novelty": {
-          "reasoning": "The investigation into the belief-behavior consistency of LLM-based role-playing agents presents a unique angle within the broader context of AI research, not widely covered in general news but significant within the AI research community.",
-          "score": 85
-        }
-      },
-      "title": "Do Role-Playing Agents Practice What They Preach? Belief-Behavior Consistency in LLM-Based Simulations of Human Trust",
-      "url": "https://arxiv.org/abs/2507.02197"
-    },
-    {
-      "author": "Ruofan Jin, Zaixi Zhang, Mengdi Wang, Le Cong",
-      "category": "Research",
-      "collected_at": "2025-07-05T01:17:13.236907+00:00",
-      "compound_analysis": true,
-      "description": "arXiv:2507.02004v1 Announce Type: new \nAbstract: The rapid growth of biomedical data, tools, and literature has created a fragmented research landscape that outpaces human expertise. While AI agents offer a solution, they typically rely on static, manually curated toolsets, limiting their ability to adapt and scale. Here, we introduce STELLA, a self-evolving AI agent designed to overcome these limitations. STELLA employs a multi-agent architecture that autonomously improves its own capabilities",
-      "expert_analysis": true,
-      "final_reasoning": "The article scores above the threshold of 70, primarily due to its significance, credibility, and novelty. While it has some limitations in terms of timeliness, audience value, and presentation quality, the overall score justifies acceptance for publication.",
-      "final_score": 76.67,
-      "id": "3d1e3f590306f226def6b241d6d663fb",
-      "processed_at": "2025-07-05T01:20:47.490474+00:00",
-      "published_date": "2025-07-04T04:00:00+00:00",
-      "ranking_priority": "MEDIUM",
-      "recommendation": "ACCEPT",
-      "source": "cs.AI updates on arXiv.org",
-      "source_id": "arxiv_ai",
-      "source_priority": 1,
-      "stage1_filter": {
-        "decision": "INCLUDE",
-        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:14.806155+00:00",
-        "reason": "Technical ML question with research potential"
-      },
-      "stage2_decision": "ADVANCE",
-      "stage2_reasoning": {
-        "overall": "Filtered by compound analysis"
-      },
-      "stage2_score": 88,
-      "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:01.919207+00:00",
-        "audience_relevance": "important",
-        "category": "research",
-        "credibility": "high",
-        "expert_reasoning": "Breakthrough in biomedical research using AI",
-        "impact_level": "high",
-        "model": "llama-3.1-8b-instant",
-        "novelty": "novel",
-        "quality_score": 9,
-        "recommendation": "INCLUDE",
-        "stage": "stage3_expert"
-      },
-      "stage3_decision": "INCLUDE",
-      "stage4_evaluation": {
-        "audience_value": {
-          "reasoning": "The article provides information that could be valuable to researchers and professionals in the biomedical field. However, the abstract nature of the content may limit its accessibility and actionable information for a broader audience.",
-          "score": 75
-        },
-        "credibility_source": {
-          "reasoning": "The source is arXiv.org, a reputable online repository for electronic preprints in physics, mathematics, computer science, and related disciplines. The credibility is high due to the academic nature of the publication and the fact that it is not a predatory or unverified source.",
-          "score": 90
-        },
-        "final_reasoning": "The article scores above the threshold of 70, primarily due to its significance, credibility, and novelty. While it has some limitations in terms of timeliness, audience value, and presentation quality, the overall score justifies acceptance for publication.",
-        "presentation_quality": {
-          "reasoning": "The headline is clear, and the description provides a concise summary. However, the overall presentation is limited by the lack of detailed information and analysis, which might be expected in a more comprehensive news article.",
-          "score": 60
-        },
-        "ranking_priority": "MEDIUM",
-        "recommendation": "ACCEPT",
-        "significance_impact": {
-          "reasoning": "The introduction of STELLA, a self-evolving AI agent for biomedical research, has the potential to significantly impact the field by improving the ability to process and analyze large amounts of data, potentially leading to breakthroughs in research.",
-          "score": 80
-        },
-        "timeliness_relevance": {
-          "reasoning": "The article is based on a recent arXiv publication, indicating it is relatively up-to-date. However, the timeliness is somewhat diminished as it's not explicitly stated how recent developments directly relate to current events or pressing issues in biomedical research.",
-          "score": 70
-        },
-        "total_score": 76.67,
-        "uniqueness_novelty": {
-          "reasoning": "The introduction of a 'self-evolving LLM agent' represents a novel approach in biomedical research. The concept of an AI system that can autonomously improve its capabilities is unique and not widely covered in mainstream news, making it stand out.",
-          "score": 85
-        }
-      },
-      "title": "STELLA: Self-Evolving LLM Agent for Biomedical Research",
-      "url": "https://arxiv.org/abs/2507.02004"
-    },
-    {
-      "author": "Shravan Doda, Shashidhar Reddy Javaji, Zining Zhu",
-      "category": "Research",
-      "collected_at": "2025-07-05T01:17:13.381394+00:00",
-      "compound_analysis": true,
-      "description": "arXiv:2507.02241v1 Announce Type: new \nAbstract: In the current machine learning landscape, we face a \"model lake\" phenomenon: Given a task, there is a proliferation of trained models with similar performances despite different behavior. For model users attempting to navigate and select from the models, documentation comparing model pairs is helpful. However, for every $N$ models there could be $O(N^2)$ pairwise comparisons, a number prohibitive for the model developers to manually perform pairw",
-      "expert_analysis": true,
-      "final_reasoning": "The article scores above 70 across most criteria, indicating it is a solid piece of content. Its significance, novelty, and credibility are particularly noteworthy. While it may not be broadly accessible due to its technical nature, it is valuable for a specific audience interested in AI and machine learning.",
-      "final_score": 76.67,
-      "id": "fd8067abd5ffdaef4a106584b510f5f6",
-      "processed_at": "2025-07-05T01:22:38.929939+00:00",
-      "published_date": "2025-07-04T04:00:00+00:00",
-      "ranking_priority": "MEDIUM",
-      "recommendation": "ACCEPT",
-      "source": "cs.LG updates on arXiv.org",
-      "source_id": "arxiv_ml",
-      "source_priority": 1,
-      "stage1_filter": {
-        "decision": "INCLUDE",
-        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:32.742731+00:00",
-        "reason": "Novel AI research on metric selection"
-      },
-      "stage2_decision": "ADVANCE",
-      "stage2_reasoning": {
-        "overall": "Filtered by compound analysis"
-      },
-      "stage2_score": 88,
-      "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:10.726292+00:00",
-        "audience_relevance": "important",
-        "category": "research",
-        "credibility": "high",
-        "expert_reasoning": "AI model comparison and selection advancements",
-        "impact_level": "significant",
-        "model": "llama-3.1-8b-instant",
-        "novelty": "novel",
-        "quality_score": 8.2,
-        "recommendation": "INCLUDE",
-        "stage": "stage3_expert"
-      },
-      "stage3_decision": "INCLUDE",
-      "stage4_evaluation": {
-        "audience_value": {
-          "reasoning": "The article has educational value for those interested in machine learning and AI, particularly researchers and developers. However, the actionable information is somewhat limited for a broader audience without a background in machine learning.",
-          "score": 75
-        },
-        "credibility_source": {
-          "reasoning": "The source is arXiv.org, a reputable platform for electronic preprints in physics, mathematics, computer science, and related disciplines. While not peer-reviewed, arXiv is considered authoritative in the academic community, especially for fields like computer science.",
+          "reasoning": "The article has a clear headline, is well-structured, and provides comprehensive coverage of the research findings, making it well-presented.",
           "score": 85
         },
-        "final_reasoning": "The article scores above 70 across most criteria, indicating it is a solid piece of content. Its significance, novelty, and credibility are particularly noteworthy. While it may not be broadly accessible due to its technical nature, it is valuable for a specific audience interested in AI and machine learning.",
-        "presentation_quality": {
-          "reasoning": "The headline is clear, and the description provides a concise abstract. However, the overall presentation is somewhat technical and assumes a background in machine learning, which might limit its comprehensibility for a general audience.",
-          "score": 60
-        },
         "ranking_priority": "MEDIUM",
         "recommendation": "ACCEPT",
         "significance_impact": {
-          "reasoning": "The article discusses a significant issue in the machine learning landscape, the 'model lake' phenomenon, and proposes a solution using large language models, which could have a substantial impact on model selection and development.",
+          "reasoning": "The article discusses a significant discovery related to brain circuits and visual acuity, potentially impacting the development of vision restoration therapies, which affects many people worldwide.",
           "score": 80
         },
         "timeliness_relevance": {
-          "reasoning": "The article is based on a recent arXiv publication, indicating it is relatively up-to-date. However, the timeliness is moderate as the publication date is early July 2025, and its relevance depends on the current interests in machine learning and AI research.",
-          "score": 70
-        },
-        "total_score": 76.67,
-        "uniqueness_novelty": {
-          "reasoning": "The article presents a novel approach, VERBA, to verbalizing model differences using large language models. This is a unique angle in addressing the 'model lake' phenomenon, not widely covered in general news but significant within the machine learning community.",
-          "score": 90
-        }
-      },
-      "title": "VERBA: Verbalizing Model Differences Using Large Language Models",
-      "url": "https://arxiv.org/abs/2507.02241"
-    },
-    {
-      "author": "",
-      "category": "Government",
-      "collected_at": "2025-07-05T01:17:34.661738+00:00",
-      "compound_analysis": true,
-      "description": "How an international expert advisory panel will advise on the International AI Safety Report using a set of principles and procedures.",
-      "expert_analysis": true,
-      "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and audience value. While it has some limitations in timeliness, uniqueness, and presentation, its overall quality justifies acceptance.",
-      "final_score": 73.33,
-      "id": "7988172c1ff4af8bd0db40ab2d237ba8",
-      "processed_at": "2025-07-05T01:20:37.283026+00:00",
-      "published_date": "2025-07-04T13:33:49+00:00",
-      "ranking_priority": "MEDIUM",
-      "recommendation": "ACCEPT",
-      "source": "Department for Science, Innovation and Technology - Activity on GOV.UK",
-      "source_id": "uk_dsit_ai",
-      "source_priority": 1,
-      "stage1_filter": {
-        "decision": "INCLUDE",
-        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:05.934445+00:00",
-        "reason": "Technical data validation innovation"
-      },
-      "stage2_decision": "ADVANCE",
-      "stage2_reasoning": {
-        "overall": "Filtered by compound analysis"
-      },
-      "stage2_score": 90,
-      "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:19:58.990982+00:00",
-        "audience_relevance": "very important",
-        "category": "safety",
-        "credibility": "very high",
-        "expert_reasoning": "International AI safety report and advisory panel",
-        "impact_level": "high",
-        "model": "llama-3.1-8b-instant",
-        "novelty": "moderate",
-        "quality_score": 9,
-        "recommendation": "INCLUDE",
-        "stage": "stage3_expert"
-      },
-      "stage3_decision": "INCLUDE",
-      "stage4_evaluation": {
-        "audience_value": {
-          "reasoning": "The report provides actionable information and has educational value for those interested in AI safety and policy, aiding in decision-making for relevant stakeholders.",
-          "score": 75
-        },
-        "credibility_source": {
-          "reasoning": "The source is the Department for Science, Innovation and Technology on GOV.UK, a reputable government organization, ensuring high credibility and factual accuracy.",
-          "score": 90
-        },
-        "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and audience value. While it has some limitations in timeliness, uniqueness, and presentation, its overall quality justifies acceptance.",
-        "presentation_quality": {
-          "reasoning": "The headline is clear, and the description provides a good overview, but the content might be somewhat dry and lacking in comprehensive coverage for a general audience.",
-          "score": 65
-        },
-        "ranking_priority": "MEDIUM",
-        "recommendation": "ACCEPT",
-        "significance_impact": {
-          "reasoning": "The International AI Safety Report has significant global importance and long-term consequences as it involves expert advisory panels and principles for AI safety, affecting many people and industries.",
-          "score": 80
-        },
-        "timeliness_relevance": {
-          "reasoning": "The report is relevant to current discussions on AI safety, but the publication date is in the future (2025-07-04), making it less timely for current news cycles.",
-          "score": 70
-        },
-        "total_score": 73.33,
-        "uniqueness_novelty": {
-          "reasoning": "The topic of AI safety is widely covered, and while this report might offer some unique insights or an official perspective, it may not be entirely novel or exclusive.",
+          "reasoning": "The article is based on a recent NIH news release, but the publication date is in the future (2025-07-05), making its timeliness questionable. However, the topic remains relevant to ongoing medical research.",
           "score": 60
+        },
+        "total_score": 78.33,
+        "uniqueness_novelty": {
+          "reasoning": "While the topic might not be entirely new, the specific research and findings presented could offer a unique angle or insights into visual processing pathways, though it may not be entirely exclusive or novel.",
+          "score": 70
         }
       },
-      "title": "Notice: International AI Safety Report: expert advisory panel and principles and procedures",
-      "url": "https://www.gov.uk/government/publications/international-scientific-report-on-advanced-ai-safety-expert-advisory-panel-and-principles-and-procedures"
+      "title": "NIH researchers identify brain circuits responsible for visual acuity",
+      "url": "https://www.nih.gov/news-events/news-releases/nih-researchers-identify-brain-circuits-responsible-visual-acuity"
     },
     {
-      "author": "devtechinsights",
-      "category": "Community",
-      "collected_at": "2025-07-05T01:17:26.577059+00:00",
+      "author": "Kirsten Banks, Lecturer, School of Science, Computing and Engineering Technologies, Swinburne University of Technology",
+      "category": "Media",
+      "collected_at": "2025-07-05T04:21:59.031898+00:00",
       "compound_analysis": true,
-      "description": "Developers aren’t just writing prompts anymore — they’re architecting them.\nVersion-controlled prompt modules, testable structures, and reusable templates are now powering AI apps like real frameworks.\nHere's how prompt libraries are changing how we build with LLMs — and what’s coming next.              for more info, visit \nhttps://devtechinsights.com/prompt-libraries-frameworks-ai-coding\n\nComments URL: https://news.ycombinator.com/item?id=44466983\nPoints: 3\n# Comments: 0",
+      "description": "An object dubbed 3I/ATLAS is only the third interloper from outside the Solar System seen in all of human history.",
       "expert_analysis": true,
-      "final_reasoning": "The article scores above the threshold of 70, indicating it is of good quality and relevance. It provides valuable insights into a timely and significant topic, making it suitable for publication.",
-      "final_score": 72.5,
-      "id": "7f2269fdb7b1450343556e27e1ad0ce8",
-      "processed_at": "2025-07-05T01:20:30.649926+00:00",
-      "published_date": "2025-07-04T18:55:47+00:00",
+      "final_reasoning": "The article scores above 70 across most criteria, indicating solid journalism. Its significance, uniqueness, and credibility are particularly noteworthy. While the presentation quality could be improved, the overall score justifies acceptance.",
+      "final_score": 77.5,
+      "id": "ecf141860acf43f1add4e4449b90a909",
+      "processed_at": "2025-07-05T04:25:02.606543+00:00",
+      "published_date": "2025-07-04T02:16:18+00:00",
       "ranking_priority": "MEDIUM",
       "recommendation": "ACCEPT",
-      "source": "Hacker News - Newest: \"\"AI\" \"machine\" \"learning\" \"startup\"\"",
-      "source_id": "hacker_news_ai",
+      "source": "English – The Conversation",
+      "source_id": "the_conversation",
       "source_priority": 2,
       "stage1_filter": {
         "decision": "INCLUDE",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:18:59.483059+00:00",
-        "reason": "Default include (unclear response)"
+        "processed_at": "2025-07-05T04:23:30.677402+00:00",
+        "reason": "AI application, object detection"
       },
       "stage2_decision": "ADVANCE",
       "stage2_reasoning": {
         "overall": "Filtered by compound analysis"
       },
-      "stage2_score": 88,
+      "stage2_score": 95,
       "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:19:56.056708+00:00",
-        "audience_relevance": "very important",
-        "category": "industry",
+        "analyzed_at": "2025-07-05T04:24:17.339966+00:00",
+        "audience_relevance": "important",
+        "category": "breakthrough",
         "credibility": "high",
-        "expert_reasoning": "Breakthrough in AI coding frameworks",
+        "expert_reasoning": "Astrophysical implications for AI research",
         "impact_level": "high",
         "model": "llama-3.1-8b-instant",
         "novelty": "novel",
@@ -1019,31 +194,181 @@
       "stage3_decision": "INCLUDE",
       "stage4_evaluation": {
         "audience_value": {
-          "reasoning": "The article provides actionable information and insights for developers working with LLMs and AI applications, offering educational value and potential utility for decision-making in the field.",
+          "reasoning": "The article has educational value for readers interested in astronomy and provides information that can enhance understanding of the Solar System and interstellar objects.",
           "score": 75
         },
         "credibility_source": {
-          "reasoning": "The source is Hacker News, which is a reputable platform for tech news, but the article itself is not directly from a well-known authoritative source, and there's no clear indication of the author's expertise or the factual accuracy of the content.",
-          "score": 60
+          "reasoning": "The source, The Conversation, is a reputable organization known for publishing articles by experts in their fields, lending credibility to the article.",
+          "score": 85
         },
-        "final_reasoning": "The article scores above the threshold of 70, indicating it is of good quality and relevance. It provides valuable insights into a timely and significant topic, making it suitable for publication.",
+        "final_reasoning": "The article scores above 70 across most criteria, indicating solid journalism. Its significance, uniqueness, and credibility are particularly noteworthy. While the presentation quality could be improved, the overall score justifies acceptance.",
         "presentation_quality": {
-          "reasoning": "The headline is clear, and the writing is understandable, but the comprehensiveness of the coverage is limited by the brevity of the article and the lack of detailed analysis or supporting evidence.",
+          "reasoning": "The headline is clear, but the article's body is not provided for a full assessment of its writing quality and comprehensiveness.",
           "score": 65
         },
         "ranking_priority": "MEDIUM",
         "recommendation": "ACCEPT",
         "significance_impact": {
-          "reasoning": "The article discusses the emerging trend of prompt libraries becoming frameworks for AI coding, which has significant implications for the development of AI applications and could impact many developers and the broader tech industry.",
+          "reasoning": "The discovery of an interstellar object is significant for the field of astronomy and has potential long-term consequences for our understanding of the universe.",
           "score": 80
         },
         "timeliness_relevance": {
-          "reasoning": "The article is timely as it discusses recent developments in AI coding and the growing importance of prompt libraries, making it relevant to current discussions in the tech community.",
+          "reasoning": "The article is reporting on a recent discovery, but the publication date is in the future (2025), making its timeliness relative to the current date uncertain.",
+          "score": 70
+        },
+        "total_score": 77.5,
+        "uniqueness_novelty": {
+          "reasoning": "The discovery of a new interstellar object is a rare occurrence, and the article provides an exclusive report on this event, making it novel and unique.",
+          "score": 90
+        }
+      },
+      "title": "Astronomers have spied an interstellar object zooming through the Solar System",
+      "url": "https://theconversation.com/astronomers-have-spied-an-interstellar-object-zooming-through-the-solar-system-260422"
+    },
+    {
+      "author": "Michael Nuñez",
+      "category": "Media",
+      "collected_at": "2025-07-05T04:21:58.446373+00:00",
+      "compound_analysis": true,
+      "description": "Dust AI startup hits $6M revenue building enterprise agents that automate workflows and take real actions across business systems using Anthropic's Claude models and MCP protocol.",
+      "expert_analysis": true,
+      "final_reasoning": "The article scores above 70 across most criteria, demonstrating good significance, timeliness, credibility, and presentation quality, making it suitable for publication",
+      "final_score": 77.5,
+      "id": "3b457244f21dd038bd4bd4ec6e0c5733",
+      "processed_at": "2025-07-05T04:25:27.625475+00:00",
+      "published_date": "2025-07-03T17:00:00+00:00",
+      "ranking_priority": "MEDIUM",
+      "recommendation": "ACCEPT",
+      "source": "VentureBeat",
+      "source_id": "venturebeat_ai",
+      "source_priority": 2,
+      "stage1_filter": {
+        "decision": "INCLUDE",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "processed_at": "2025-07-05T04:23:37.338298+00:00",
+        "reason": "Significant AI/tech industry development"
+      },
+      "stage2_decision": "ADVANCE",
+      "stage2_reasoning": {
+        "overall": "Filtered by compound analysis"
+      },
+      "stage2_score": 90,
+      "stage3_analysis": {
+        "analyzed_at": "2025-07-05T04:24:20.282940+00:00",
+        "audience_relevance": "important",
+        "category": "startup",
+        "credibility": "high",
+        "expert_reasoning": "AI startup success and innovation",
+        "impact_level": "significant",
+        "model": "llama-3.1-8b-instant",
+        "novelty": "novel",
+        "quality_score": 8,
+        "recommendation": "INCLUDE",
+        "stage": "stage3_expert"
+      },
+      "stage3_decision": "INCLUDE",
+      "stage4_evaluation": {
+        "audience_value": {
+          "reasoning": "The article provides actionable information and insights for professionals in the AI and tech industries",
+          "score": 78
+        },
+        "credibility_source": {
+          "reasoning": "VentureBeat is a reputable source for tech news, and the article provides factual information about the startup's achievement",
           "score": 85
         },
-        "total_score": 72.5,
+        "final_reasoning": "The article scores above 70 across most criteria, demonstrating good significance, timeliness, credibility, and presentation quality, making it suitable for publication",
+        "presentation_quality": {
+          "reasoning": "The headline is clear, and the article is well-written, providing comprehensive coverage of the startup's achievement",
+          "score": 82
+        },
+        "ranking_priority": "MEDIUM",
+        "recommendation": "ACCEPT",
+        "significance_impact": {
+          "reasoning": "The article discusses a startup achieving $6M ARR, which is significant for the AI industry, but its global importance is limited",
+          "score": 72
+        },
+        "timeliness_relevance": {
+          "reasoning": "The article is recent and discusses current developments in AI, making it timely and relevant",
+          "score": 80
+        },
+        "total_score": 77.5,
         "uniqueness_novelty": {
-          "reasoning": "The article presents a unique angle on the development of AI applications by focusing on prompt libraries, but the topic might not be entirely new or exclusive to this source.",
+          "reasoning": "The article provides some unique insights into the startup's technology and achievements, but the overall topic is not entirely new",
+          "score": 68
+        }
+      },
+      "title": "Dust hits $6M ARR helping enterprises build AI agents that actually do stuff instead of just talking",
+      "url": "https://venturebeat.com/ai/dust-hits-6m-arr-helping-enterprises-build-ai-agents-that-actually-do-stuff-instead-of-just-talking/"
+    },
+    {
+      "author": "devtechinsights",
+      "category": "Community",
+      "collected_at": "2025-07-05T04:22:00.437866+00:00",
+      "compound_analysis": true,
+      "description": "Developers aren’t just writing prompts anymore — they’re architecting them.\nVersion-controlled prompt modules, testable structures, and reusable templates are now powering AI apps like real frameworks.\nHere's how prompt libraries are changing how we build with LLMs — and what’s coming next.              for more info, visit \nhttps://devtechinsights.com/prompt-libraries-frameworks-ai-coding\n\nComments URL: https://news.ycombinator.com/item?id=44466983\nPoints: 3\n# Comments: 0",
+      "expert_analysis": true,
+      "final_reasoning": "The article scores above 70 across the evaluation criteria, indicating it is a piece of solid journalism that provides valuable insights into a timely and significant topic in the AI and tech community. While there are some limitations in credibility and presentation, the overall quality and relevance justify its acceptance.",
+      "final_score": 77,
+      "id": "7f2269fdb7b1450343556e27e1ad0ce8",
+      "processed_at": "2025-07-05T04:24:52.746997+00:00",
+      "published_date": "2025-07-04T18:55:47+00:00",
+      "ranking_priority": "MEDIUM",
+      "recommendation": "ACCEPT",
+      "source": "Hacker News - Newest: \"\"AI\" \"machine\" \"learning\" \"startup\"\"",
+      "source_id": "hacker_news_ai",
+      "source_priority": 2,
+      "stage1_filter": {
+        "decision": "INCLUDE",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "processed_at": "2025-07-05T04:23:15.090397+00:00",
+        "reason": "AI-powered reading assistant with novel application"
+      },
+      "stage2_decision": "ADVANCE",
+      "stage2_reasoning": {
+        "overall": "Filtered by compound analysis"
+      },
+      "stage2_score": 80,
+      "stage3_analysis": {
+        "analyzed_at": "2025-07-05T04:24:14.271439+00:00",
+        "audience_relevance": "very important",
+        "category": "industry",
+        "credibility": "high",
+        "expert_reasoning": "Prompt libraries are changing the way we build with LLMs",
+        "impact_level": "high",
+        "model": "llama-3.1-8b-instant",
+        "novelty": "novel",
+        "quality_score": 9.2,
+        "recommendation": "INCLUDE",
+        "stage": "stage3_expert"
+      },
+      "stage3_decision": "INCLUDE",
+      "stage4_evaluation": {
+        "audience_value": {
+          "reasoning": "The article offers actionable information and educational value for developers working with AI and LLMs, providing insights into how prompt libraries are changing the way AI applications are built.",
+          "score": 85
+        },
+        "credibility_source": {
+          "reasoning": "The source is Hacker News, which is a reputable platform for tech news, but the credibility of the specific article is somewhat diminished by the lack of detailed analysis in previous stages and the low number of comments and points.",
+          "score": 60
+        },
+        "final_reasoning": "The article scores above 70 across the evaluation criteria, indicating it is a piece of solid journalism that provides valuable insights into a timely and significant topic in the AI and tech community. While there are some limitations in credibility and presentation, the overall quality and relevance justify its acceptance.",
+        "presentation_quality": {
+          "reasoning": "The headline is clear, and the article is well-written. However, the comprehensiveness of the coverage is somewhat limited by the brevity of the description provided.",
+          "score": 75
+        },
+        "ranking_priority": "MEDIUM",
+        "recommendation": "ACCEPT",
+        "significance_impact": {
+          "reasoning": "The article discusses the emerging trend of prompt libraries becoming frameworks for AI coding, which has significant implications for the development of AI applications and could impact many developers and the broader AI community.",
+          "score": 80
+        },
+        "timeliness_relevance": {
+          "reasoning": "The article is timely as it discusses recent developments in AI coding and the use of prompt libraries, which is relevant to current interests in the tech community, particularly in 2025.",
+          "score": 90
+        },
+        "total_score": 77,
+        "uniqueness_novelty": {
+          "reasoning": "The article provides a unique perspective on the use of prompt libraries as frameworks in AI coding, though the topic might not be entirely new, the angle and the specific focus on 'prompt libraries as frameworks' offer some novelty.",
           "score": 70
         }
       },
@@ -1051,39 +376,39 @@
       "url": "https://news.ycombinator.com/item?id=44466983"
     },
     {
-      "author": "Shikai Qiu, Lechao Xiao, Andrew Gordon Wilson, Jeffrey Pennington, Atish Agarwala",
-      "category": "Research",
-      "collected_at": "2025-07-05T01:17:13.380832+00:00",
+      "author": "",
+      "category": "Government",
+      "collected_at": "2025-07-05T04:22:09.942983+00:00",
       "compound_analysis": true,
-      "description": "arXiv:2507.02119v1 Announce Type: new \nAbstract: What scaling limits govern neural network training dynamics when model size and training time grow in tandem? We show that despite the complex interactions between architecture, training algorithms, and data, compute-optimally trained models exhibit a remarkably precise universality. Specifically, loss curves from models of varying sizes collapse onto a single universal curve when training compute and loss are normalized to unity at the end of tra",
+      "description": "How an international expert advisory panel will advise on the International AI Safety Report using a set of principles and procedures.",
       "expert_analysis": true,
-      "final_reasoning": "The article's significance, credibility, and uniqueness make it a solid piece of content, despite some limitations in timeliness, audience value, and presentation quality. The total score is above the threshold of 70, making it acceptable for publication.",
-      "final_score": 72.5,
-      "id": "ddde811a2ac9e806f3239a0193ebd8cc",
-      "processed_at": "2025-07-05T01:22:55.480321+00:00",
-      "published_date": "2025-07-04T04:00:00+00:00",
+      "final_reasoning": "The article scores above the threshold of 70, primarily due to its significance, credibility, and audience value. While it may not excel in uniqueness or presentation, its overall quality justifies acceptance.",
+      "final_score": 73.33,
+      "id": "7988172c1ff4af8bd0db40ab2d237ba8",
+      "processed_at": "2025-07-05T04:24:55.929931+00:00",
+      "published_date": "2025-07-04T13:33:49+00:00",
       "ranking_priority": "MEDIUM",
       "recommendation": "ACCEPT",
-      "source": "cs.LG updates on arXiv.org",
-      "source_id": "arxiv_ml",
+      "source": "Department for Science, Innovation and Technology - Activity on GOV.UK",
+      "source_id": "uk_dsit_ai",
       "source_priority": 1,
       "stage1_filter": {
         "decision": "INCLUDE",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:30.443262+00:00",
-        "reason": "Default include (unclear response)"
+        "processed_at": "2025-07-05T04:23:21.768254+00:00",
+        "reason": "Technical data validation innovation"
       },
       "stage2_decision": "ADVANCE",
       "stage2_reasoning": {
         "overall": "Filtered by compound analysis"
       },
-      "stage2_score": 85,
+      "stage2_score": 80,
       "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:10.726299+00:00",
+        "analyzed_at": "2025-07-05T04:24:14.271450+00:00",
         "audience_relevance": "important",
-        "category": "research",
+        "category": "policy",
         "credibility": "high",
-        "expert_reasoning": "AI neural network training dynamics breakthrough",
+        "expert_reasoning": "International AI safety report and advisory panel",
         "impact_level": "significant",
         "model": "llama-3.1-8b-instant",
         "novelty": "novel",
@@ -1094,74 +419,149 @@
       "stage3_decision": "INCLUDE",
       "stage4_evaluation": {
         "audience_value": {
-          "reasoning": "The article's content is highly technical and may be of limited value to a broad audience, but it could be valuable for researchers and developers in the field of AI.",
-          "score": 60
+          "reasoning": "The report provides actionable information and has educational value, particularly for those interested in or working with AI. It aids in decision-making regarding AI safety standards.",
+          "score": 75
         },
         "credibility_source": {
-          "reasoning": "The article is sourced from arXiv.org, a reputable platform for scientific publications, and the content appears to be technically accurate.",
+          "reasoning": "The Department for Science, Innovation and Technology is a reputable government organization, lending credibility to the report. The information is likely to be factually accurate.",
           "score": 90
         },
-        "final_reasoning": "The article's significance, credibility, and uniqueness make it a solid piece of content, despite some limitations in timeliness, audience value, and presentation quality. The total score is above the threshold of 70, making it acceptable for publication.",
+        "final_reasoning": "The article scores above the threshold of 70, primarily due to its significance, credibility, and audience value. While it may not excel in uniqueness or presentation, its overall quality justifies acceptance.",
         "presentation_quality": {
-          "reasoning": "The article's presentation is clear and concise, but it lacks a clear headline and comprehensive coverage, making it more suitable for a technical audience familiar with the subject matter.",
-          "score": 50
+          "reasoning": "The headline is clear, and the content is well-structured. However, the overall coverage might be considered somewhat dry or lacking in engaging narrative, which affects its score.",
+          "score": 65
         },
         "ranking_priority": "MEDIUM",
         "recommendation": "ACCEPT",
         "significance_impact": {
-          "reasoning": "The article discusses a significant finding in neural network training dynamics, potentially impacting the field of AI research and development.",
+          "reasoning": "The International AI Safety Report has significant global importance and long-term consequences as it involves expert advisory panels and principles for AI safety, affecting many people and industries.",
           "score": 80
         },
         "timeliness_relevance": {
-          "reasoning": "The article is based on a recent arXiv publication, making it a recent development in the field, but its relevance may be limited to a specific audience.",
+          "reasoning": "The report is a recent development in the field of AI safety, making it timely. However, it's not breaking news, hence not scoring the maximum.",
           "score": 70
         },
-        "total_score": 72.5,
+        "total_score": 73.33,
         "uniqueness_novelty": {
-          "reasoning": "The article presents a unique finding regarding the universality of scaling limits in neural network training dynamics, which may not be widely covered in other news sources.",
-          "score": 85
+          "reasoning": "While the report itself might not be widely covered in the media, the topic of AI safety is not novel. The specific details and principles might offer some uniqueness.",
+          "score": 60
         }
       },
-      "title": "Scaling Collapse Reveals Universal Dynamics in Compute-Optimally Trained Neural Networks",
-      "url": "https://arxiv.org/abs/2507.02119"
+      "title": "Notice: International AI Safety Report: expert advisory panel and principles and procedures",
+      "url": "https://www.gov.uk/government/publications/international-scientific-report-on-advanced-ai-safety-expert-advisory-panel-and-principles-and-procedures"
     },
     {
-      "author": "Iestyn Woolway, Reader and NERC Independent Research Fellow, Bangor University",
-      "category": "Media",
-      "collected_at": "2025-07-05T01:17:25.477611+00:00",
+      "author": "Bluestein",
+      "category": "Community",
+      "collected_at": "2025-07-05T04:22:00.432606+00:00",
       "compound_analysis": true,
-      "description": "Subsurface heatwaves are becoming more frequent, longer-lasting and more intense.",
+      "description": "Article URL: https://www.nature.com/articles/d41586-025-02095-8\nComments URL: https://news.ycombinator.com/item?id=44470003\nPoints: 2\n# Comments: 0",
       "expert_analysis": true,
-      "final_reasoning": "The article scores above the threshold of 70, primarily due to its significance, credibility, and uniqueness. While it has some limitations in terms of timeliness, audience value, and presentation quality, its overall quality is sufficient for acceptance.",
-      "final_score": 72.5,
-      "id": "c001b0bc051755fe1095934ff34459ed",
-      "processed_at": "2025-07-05T01:20:40.691946+00:00",
-      "published_date": "2025-07-04T16:35:53+00:00",
+      "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and audience value. While it has some limitations in terms of timeliness, uniqueness, and presentation, its overall quality justifies acceptance.",
+      "final_score": 73.33,
+      "id": "3c3c14390b1c8a42efdb77ebc378904b",
+      "processed_at": "2025-07-05T04:24:32.552519+00:00",
+      "published_date": "2025-07-05T04:01:04+00:00",
       "ranking_priority": "MEDIUM",
       "recommendation": "ACCEPT",
-      "source": "English – The Conversation",
-      "source_id": "the_conversation",
+      "source": "Hacker News - Newest: \"\"AI\" \"machine\" \"learning\" \"startup\"\"",
+      "source_id": "hacker_news_ai",
       "source_priority": 2,
       "stage1_filter": {
         "decision": "INCLUDE",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:01.495204+00:00",
-        "reason": "AI impact on data science interviews"
+        "processed_at": "2025-07-05T04:23:02.014363+00:00",
+        "reason": "Default include (unclear response)"
       },
       "stage2_decision": "ADVANCE",
       "stage2_reasoning": {
         "overall": "Filtered by compound analysis"
       },
-      "stage2_score": 80,
+      "stage2_score": 95,
       "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:19:58.990998+00:00",
+        "analyzed_at": "2025-07-05T04:24:08.315570+00:00",
         "audience_relevance": "important",
+        "category": "research",
+        "credibility": "high",
+        "expert_reasoning": "Important AI research development",
+        "impact_level": "significant",
+        "model": "llama-3.1-8b-instant",
+        "novelty": "novel",
+        "quality_score": 8.5,
+        "recommendation": "INCLUDE",
+        "stage": "stage3_expert"
+      },
+      "stage3_decision": "INCLUDE",
+      "stage4_evaluation": {
+        "audience_value": {
+          "reasoning": "The article provides educational value for those interested in AI and psychology, potentially informing readers about recent advancements and their implications.",
+          "score": 75
+        },
+        "credibility_source": {
+          "reasoning": "The article references a Nature publication, which is a reputable scientific source, indicating high credibility.",
+          "score": 90
+        },
+        "final_reasoning": "The article scores above the threshold of 70, driven by its significance, credibility, and audience value. While it has some limitations in terms of timeliness, uniqueness, and presentation, its overall quality justifies acceptance.",
+        "presentation_quality": {
+          "reasoning": "The headline is clear, but the article's quality is somewhat diminished by the lack of detailed analysis or commentary in the provided snippet.",
+          "score": 65
+        },
+        "ranking_priority": "MEDIUM",
+        "recommendation": "ACCEPT",
+        "significance_impact": {
+          "reasoning": "The article discusses a significant development in AI research, potentially impacting various fields such as psychology and machine learning.",
+          "score": 80
+        },
+        "timeliness_relevance": {
+          "reasoning": "The article is based on a recent publication (July 2025), making it relatively timely, but the exact relevance depends on current events and trends in AI research.",
+          "score": 70
+        },
+        "total_score": 73.33,
+        "uniqueness_novelty": {
+          "reasoning": "While the topic of AI development is common, the specific angle of training AI on psychology studies offers some novelty, but may not be entirely unique or exclusive.",
+          "score": 60
+        }
+      },
+      "title": "AI 'thinks' like a human – after training on 160 psychology studies",
+      "url": "https://www.nature.com/articles/d41586-025-02095-8"
+    },
+    {
+      "author": "",
+      "category": "Government",
+      "collected_at": "2025-07-05T04:22:08.216751+00:00",
+      "compound_analysis": true,
+      "description": "RTX is a non-addictive pain therapy derived from a cactus-like plant.",
+      "expert_analysis": true,
+      "final_reasoning": "The article scores above the threshold of 70, primarily due to its significance, credibility, and audience value. While it has some limitations in terms of timeliness, uniqueness, and presentation quality, its overall score justifies acceptance.",
+      "final_score": 73.33,
+      "id": "ca1e5d931f7eea43d49eed245535e1c7",
+      "processed_at": "2025-07-05T04:24:35.867393+00:00",
+      "published_date": "2025-07-05T04:22:08.216738+00:00",
+      "ranking_priority": "MEDIUM",
+      "recommendation": "ACCEPT",
+      "source": "NIH News Releases",
+      "source_id": "nih_ai_news",
+      "source_priority": 1,
+      "stage1_filter": {
+        "decision": "INCLUDE",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "processed_at": "2025-07-05T04:22:57.490930+00:00",
+        "reason": "Gene delivery system breakthrough"
+      },
+      "stage2_decision": "ADVANCE",
+      "stage2_reasoning": {
+        "overall": "Filtered by compound analysis"
+      },
+      "stage2_score": 90,
+      "stage3_analysis": {
+        "analyzed_at": "2025-07-05T04:24:08.315594+00:00",
+        "audience_relevance": "moderate",
         "category": "breakthrough",
         "credibility": "high",
-        "expert_reasoning": "Not directly related to AI/tech, but relevant to environmental impact",
+        "expert_reasoning": "Potential application in AI-assisted pain management",
         "impact_level": "moderate",
         "model": "llama-3.1-8b-instant",
-        "novelty": "moderate",
+        "novelty": "incremental",
         "quality_score": 7,
         "recommendation": "INCLUDE",
         "stage": "stage3_expert"
@@ -1169,58 +569,133 @@
       "stage3_decision": "INCLUDE",
       "stage4_evaluation": {
         "audience_value": {
-          "reasoning": "The article provides some educational value by highlighting an important environmental issue. However, it lacks actionable information or detailed insights that could help readers make informed decisions.",
-          "score": 65
+          "reasoning": "The article provides actionable information about a non-addictive pain therapy, which has educational value and potential decision-making utility for those affected by cancer pain.",
+          "score": 75
         },
         "credibility_source": {
-          "reasoning": "The article is sourced from The Conversation, a reputable organization known for publishing articles by academics and experts. The credibility is high, assuming the author is an expert in the field, though the specific author's credentials are not provided.",
-          "score": 85
+          "reasoning": "The article is sourced from NIH News Releases, a reputable government organization known for authoritative and factually accurate information.",
+          "score": 90
         },
-        "final_reasoning": "The article scores above the threshold of 70, primarily due to its significance, credibility, and uniqueness. While it has some limitations in terms of timeliness, audience value, and presentation quality, its overall quality is sufficient for acceptance.",
+        "final_reasoning": "The article scores above the threshold of 70, primarily due to its significance, credibility, and audience value. While it has some limitations in terms of timeliness, uniqueness, and presentation quality, its overall score justifies acceptance.",
         "presentation_quality": {
-          "reasoning": "The headline is clear, but the article is very brief and lacks comprehensive coverage of the topic. The writing is straightforward, but more details and supporting evidence would enhance the presentation.",
-          "score": 60
+          "reasoning": "The headline is clear, but the article is very brief and lacks comprehensive coverage of the treatment, its implications, or expert analysis.",
+          "score": 65
         },
         "ranking_priority": "MEDIUM",
         "recommendation": "ACCEPT",
         "significance_impact": {
-          "reasoning": "The article discusses the rising frequency and intensity of underwater lake heatwaves, which have significant implications for aquatic life and potentially long-term consequences for ecosystems.",
+          "reasoning": "The article discusses a promising treatment for intractable cancer pain, which affects many people worldwide and has significant long-term consequences.",
           "score": 80
         },
         "timeliness_relevance": {
-          "reasoning": "The article is based on recent developments, as indicated by the publication date in 2025, but the topic's timeliness is somewhat diminished by the lack of specificity about the exact timing of the heatwaves or their immediate consequences.",
+          "reasoning": "The article is based on a recent NIH news release, but the publication date is in the future (2025-07-05), which may impact its timeliness.",
+          "score": 70
+        },
+        "total_score": 73.33,
+        "uniqueness_novelty": {
+          "reasoning": "The article reports on a new treatment, but the uniqueness of the angle is limited as it is directly from a government news release without additional analysis or exclusive reporting.",
+          "score": 60
+        }
+      },
+      "title": "NIH scientists pioneer promising treatment for intractable cancer pain",
+      "url": "https://www.nih.gov/news-events/news-releases/nih-scientists-pioneer-promising-treatment-intractable-cancer-pain"
+    },
+    {
+      "author": "",
+      "category": "Research",
+      "collected_at": "2025-07-05T04:21:46.236876+00:00",
+      "compound_analysis": true,
+      "description": "Although large language models (LLMs) have become transformative, they still\nmake mistakes and can explore unproductive reasoning paths. Self-correction is\nan important capability for a trustworthy LLM, particularly an autoregressive\nLLM. While LLMs can identify error in user input, they exhibit a systematic\n'Self-Correction Blind Spot' - failing to correct identical error in their own\noutputs. To systematically study this phenomenon, we introduce Self-Correction\nBench, a systematic framework to",
+      "expert_analysis": true,
+      "final_reasoning": "The article scores above 70, primarily due to its significance, uniqueness, and audience value. While it has some drawbacks in terms of source credibility and presentation quality, its strengths outweigh its weaknesses, making it worthy of acceptance.",
+      "final_score": 72.5,
+      "id": "51e3fd55c9626d95c34fa826123bfe23",
+      "processed_at": "2025-07-05T04:25:47.714276+00:00",
+      "published_date": "2025-07-03T12:41:30+00:00",
+      "ranking_priority": "MEDIUM",
+      "recommendation": "ACCEPT",
+      "source": "huggingface_papers_api",
+      "source_id": "huggingface_papers_api",
+      "source_priority": 1,
+      "stage1_filter": {
+        "decision": "INCLUDE",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "processed_at": "2025-07-05T04:23:44.190000+00:00",
+        "reason": "Cloud system architectural resilience"
+      },
+      "stage2_decision": "ADVANCE",
+      "stage2_reasoning": {
+        "overall": "Filtered by compound analysis"
+      },
+      "stage2_score": 95,
+      "stage3_analysis": {
+        "analyzed_at": "2025-07-05T04:24:23.305731+00:00",
+        "audience_relevance": "important",
+        "category": "research",
+        "credibility": "high",
+        "expert_reasoning": "Self-Correction Bench: Revealing and Addressing the Self-Correction Blind Spot in LLMs",
+        "impact_level": "high",
+        "model": "llama-3.1-8b-instant",
+        "novelty": "novel",
+        "quality_score": 9.0,
+        "recommendation": "INCLUDE",
+        "stage": "stage3_expert"
+      },
+      "stage3_decision": "INCLUDE",
+      "stage4_evaluation": {
+        "audience_value": {
+          "reasoning": "The article provides educational value by discussing a specific problem in LLMs and a proposed solution, which can be useful for researchers and developers in the field.",
+          "score": 75
+        },
+        "credibility_source": {
+          "reasoning": "The source 'huggingface_papers_api' seems related to AI research, which is relevant, but its credibility and authority are not well-established without further context.",
+          "score": 60
+        },
+        "final_reasoning": "The article scores above 70, primarily due to its significance, uniqueness, and audience value. While it has some drawbacks in terms of source credibility and presentation quality, its strengths outweigh its weaknesses, making it worthy of acceptance.",
+        "presentation_quality": {
+          "reasoning": "The headline is clear, but the article's description is somewhat technical and lacks comprehensive coverage for a broad audience. It seems more suited for a specialized audience.",
+          "score": 65
+        },
+        "ranking_priority": "MEDIUM",
+        "recommendation": "ACCEPT",
+        "significance_impact": {
+          "reasoning": "The article discusses a significant issue in LLMs, the 'Self-Correction Blind Spot', which affects the trustworthiness of these models, having long-term consequences on their reliability and usability.",
+          "score": 80
+        },
+        "timeliness_relevance": {
+          "reasoning": "The topic is relevant to recent developments in LLMs, but the publication date is in the future, making it hard to assess its timeliness accurately. However, the subject matter is currently relevant.",
           "score": 70
         },
         "total_score": 72.5,
         "uniqueness_novelty": {
-          "reasoning": "The topic of underwater lake heatwaves is not widely covered in mainstream news, providing a unique angle. However, the article's brevity and lack of detailed exclusive reporting somewhat reduce its novelty.",
-          "score": 75
+          "reasoning": "The introduction of the 'Self-Correction Bench' as a systematic framework to study the 'Self-Correction Blind Spot' in LLMs presents a novel approach to addressing a significant issue, making it unique.",
+          "score": 85
         }
       },
-      "title": "Underwater lake heatwaves are on the rise, threatening aquatic life",
-      "url": "https://theconversation.com/underwater-lake-heatwaves-are-on-the-rise-threatening-aquatic-life-258885"
+      "title": "Self-Correction Bench: Revealing and Addressing the Self-Correction\n  Blind Spot in LLMs",
+      "url": "https://arxiv.org/abs/2507.02778"
     },
     {
-      "author": "liquid99",
-      "category": "Community",
-      "collected_at": "2025-07-05T01:17:26.574435+00:00",
+      "author": "Pere Martra",
+      "category": "Open Source",
+      "collected_at": "2025-07-05T04:21:55.528759+00:00",
       "compound_analysis": true,
-      "description": "Article URL: https://www.reuters.com/business/media-telecom/former-tesla-google-engineers-raise-4-million-ai-text-detection-startup-pangram-2025-06-24/\nComments URL: https://news.ycombinator.com/item?id=44468029\nPoints: 5\n# Comments: 0",
+      "description": "From unjustified shootings to neutral stories: how to fix toxic narratives with selective pruning\nThe post Fairness Pruning: Precision Surgery to Reduce Bias in LLMs appeared first on Towards Data Science.",
       "expert_analysis": true,
-      "final_reasoning": "The article scores above 70 across the evaluation criteria, demonstrating a good balance of timeliness, credibility, and presentation quality, making it suitable for publication.",
-      "final_score": 70.83,
-      "id": "daff0eb887b9aeb6899bab19c289eaf3",
-      "processed_at": "2025-07-05T01:20:23.824510+00:00",
-      "published_date": "2025-07-04T21:33:16+00:00",
+      "final_reasoning": "The article scores above the threshold of 70, primarily due to its significance, audience value, and uniqueness. While there are concerns regarding timeliness, credibility, and presentation quality, the overall score justifies acceptance.",
+      "final_score": 72.5,
+      "id": "cbbc6165b3180a07f0afc239c8b36a52",
+      "processed_at": "2025-07-05T04:25:11.152479+00:00",
+      "published_date": "2025-07-03T23:29:08+00:00",
       "ranking_priority": "MEDIUM",
       "recommendation": "ACCEPT",
-      "source": "Hacker News - Newest: \"\"AI\" \"machine\" \"learning\" \"startup\"\"",
-      "source_id": "hacker_news_ai",
-      "source_priority": 2,
+      "source": "Towards Data Science",
+      "source_id": "towards_data_science",
+      "source_priority": 3,
       "stage1_filter": {
         "decision": "INCLUDE",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:18:52.796895+00:00",
+        "processed_at": "2025-07-05T04:23:32.926989+00:00",
         "reason": "Default include (unclear response)"
       },
       "stage2_decision": "ADVANCE",
@@ -1229,7 +704,7 @@
       },
       "stage2_score": 88,
       "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:19:56.056666+00:00",
+        "analyzed_at": "2025-07-05T04:24:20.282909+00:00",
         "audience_relevance": "important",
         "category": "research",
         "credibility": "high",
@@ -1244,59 +719,134 @@
       "stage3_decision": "INCLUDE",
       "stage4_evaluation": {
         "audience_value": {
-          "reasoning": "The article provides some actionable information for those interested in AI and tech startups, but its educational value and decision-making utility are moderate.",
+          "reasoning": "The article provides actionable information and has educational value for those interested in AI, bias, and fairness, offering insights into decision-making processes related to LLMs.",
+          "score": 85
+        },
+        "credibility_source": {
+          "reasoning": "The source, Towards Data Science, is a reputable platform for technical articles, but the lack of Stage3 analysis and the initial quality score of 0/10 raises concerns about the article's credibility and factual accuracy.",
+          "score": 60
+        },
+        "final_reasoning": "The article scores above the threshold of 70, primarily due to its significance, audience value, and uniqueness. While there are concerns regarding timeliness, credibility, and presentation quality, the overall score justifies acceptance.",
+        "presentation_quality": {
+          "reasoning": "The headline is clear, and the description suggests a well-structured approach to explaining the concept. However, the actual content quality and comprehensiveness are not directly assessable from the provided information.",
+          "score": 65
+        },
+        "ranking_priority": "MEDIUM",
+        "recommendation": "ACCEPT",
+        "significance_impact": {
+          "reasoning": "The article discusses reducing bias in Large Language Models (LLMs), which has significant implications for fairness and justice in AI applications, affecting many people and having long-term consequences.",
+          "score": 80
+        },
+        "timeliness_relevance": {
+          "reasoning": "The topic is relevant to current discussions in AI and bias, but the publication date is in the future (2025), making it difficult to assess its timeliness accurately. However, the concept is likely to remain relevant.",
+          "score": 70
+        },
+        "total_score": 72.5,
+        "uniqueness_novelty": {
+          "reasoning": "The concept of 'Fairness Pruning' as a method to reduce bias in LLMs presents a unique angle on addressing bias, suggesting some level of novelty in the approach or its presentation.",
+          "score": 75
+        }
+      },
+      "title": "Fairness Pruning: Precision Surgery to Reduce Bias in LLMs",
+      "url": "https://towardsdatascience.com/fairness-pruning-precision-surgery-to-reduce-bias-in-llms/"
+    },
+    {
+      "author": "TechCrunch Events",
+      "category": "Startups",
+      "collected_at": "2025-07-05T04:21:56.807502+00:00",
+      "compound_analysis": true,
+      "description": "AI agents are reshaping how work gets done across industries, and at TechCrunch Disrupt 2025, one of the leading voices in that transformation is stepping onto the AI Stage. May Habib, CEO and co-founder of Writer, will join us in San Francisco, October 27-29, for a fireside chat that dives deep into how enterprises are […]",
+      "expert_analysis": true,
+      "final_reasoning": "The article has a good balance of timeliness, credibility, and presentation quality, making it suitable for publication. While it may not be groundbreaking or highly significant, it provides value to the target audience and is well-presented.",
+      "final_score": 71,
+      "id": "3ae3e582abebcd532b64f0db51868a12",
+      "processed_at": "2025-07-05T04:25:29.116373+00:00",
+      "published_date": "2025-07-03T14:00:00+00:00",
+      "ranking_priority": "MEDIUM",
+      "recommendation": "ACCEPT",
+      "source": "Startups | TechCrunch",
+      "source_id": "techcrunch_startups",
+      "source_priority": 1,
+      "stage1_filter": {
+        "decision": "INCLUDE",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "processed_at": "2025-07-05T04:23:41.968126+00:00",
+        "reason": "Default include (unclear response)"
+      },
+      "stage2_decision": "ADVANCE",
+      "stage2_reasoning": {
+        "overall": "Filtered by compound analysis"
+      },
+      "stage2_score": 87,
+      "stage3_analysis": {
+        "analyzed_at": "2025-07-05T04:24:23.305717+00:00",
+        "audience_relevance": "important",
+        "category": "industry",
+        "credibility": "high",
+        "expert_reasoning": "Writer CEO May Habib to take the AI Stage at TechCrunch Disrupt 2025",
+        "impact_level": "significant",
+        "model": "llama-3.1-8b-instant",
+        "novelty": "novel",
+        "quality_score": 8.5,
+        "recommendation": "INCLUDE",
+        "stage": "stage3_expert"
+      },
+      "stage3_decision": "INCLUDE",
+      "stage4_evaluation": {
+        "audience_value": {
+          "reasoning": "The article provides some actionable information for those interested in attending TechCrunch Disrupt2025 or following the AI industry. However, its educational value and decision-making utility are somewhat limited.",
           "score": 70
         },
         "credibility_source": {
-          "reasoning": "The article is sourced from Reuters, a reputable news organization, and references a specific company and funding amount, indicating factual accuracy.",
+          "reasoning": "The article is from TechCrunch, a reputable source in the tech industry. The information appears to be factual and accurate, with a clear connection to the event and the person being featured.",
           "score": 90
         },
-        "final_reasoning": "The article scores above 70 across the evaluation criteria, demonstrating a good balance of timeliness, credibility, and presentation quality, making it suitable for publication.",
+        "final_reasoning": "The article has a good balance of timeliness, credibility, and presentation quality, making it suitable for publication. While it may not be groundbreaking or highly significant, it provides value to the target audience and is well-presented.",
         "presentation_quality": {
-          "reasoning": "The article has a clear headline, is well-written, and provides comprehensive coverage of the startup and its funding.",
+          "reasoning": "The article is well-written, with a clear headline and concise description. It effectively conveys the necessary information about the event and the speaker.",
           "score": 85
         },
         "ranking_priority": "MEDIUM",
         "recommendation": "ACCEPT",
         "significance_impact": {
-          "reasoning": "The article discusses a startup raising $4M for AI-text detection, which has some significance in the tech industry, but its global importance and long-term consequences are limited.",
+          "reasoning": "The article discusses a notable figure in the AI industry, May Habib, and her participation in TechCrunch Disrupt2025. While it has some relevance to the tech community, its global importance and long-term consequences are limited.",
           "score": 60
         },
         "timeliness_relevance": {
-          "reasoning": "The article is about a recent development (funding raised in 2025) and is relevant to current tech trends, making it timely.",
+          "reasoning": "The article is related to an upcoming event, TechCrunch Disrupt2025, and is published a few months prior to the event. This makes it timely and relevant to those interested in the tech industry.",
           "score": 80
         },
-        "total_score": 70.83,
+        "total_score": 71,
         "uniqueness_novelty": {
-          "reasoning": "While the article reports on a specific startup, the topic of AI-text detection is not novel, and similar stories have been covered elsewhere.",
+          "reasoning": "The article is promotional in nature, announcing a speaker at TechCrunch Disrupt2025. While it provides some details about the event and the speaker, it doesn't offer a unique angle or exclusive reporting.",
           "score": 40
         }
       },
-      "title": "Ex-Tesla and Google Engineers Raise $4M for AI-Text Detection Startup Pangram",
-      "url": "https://www.reuters.com/business/media-telecom/former-tesla-google-engineers-raise-4-million-ai-text-detection-startup-pangram-2025-06-24/"
+      "title": "Writer CEO May Habib to take the AI Stage at TechCrunch Disrupt 2025",
+      "url": "https://techcrunch.com/2025/07/03/writer-ceo-may-habib-to-take-the-ai-stage-at-techcrunch-disrupt-2025/"
     },
     {
-      "author": "Wanjia Zhao, Jiaqi Han, Siyi Gu, Mingjian Jiang, James Zou, Stefano Ermon",
-      "category": "Research",
-      "collected_at": "2025-07-05T01:17:13.380399+00:00",
+      "author": "zt",
+      "category": "Community",
+      "collected_at": "2025-07-05T04:22:00.433613+00:00",
       "compound_analysis": true,
-      "description": "arXiv:2507.02085v1 Announce Type: new \nAbstract: Geometric diffusion models have shown remarkable success in molecular dynamics and structure generation. However, efficiently fine-tuning them for downstream tasks with varying geometric controls remains underexplored. In this work, we propose an SE(3)-equivariant adapter framework ( GeoAda) that enables flexible and parameter-efficient fine-tuning for controlled generative tasks without modifying the original model architecture. GeoAda introduces",
+      "description": "Article URL: https://blog.zactownsend.com/why-agentic-ai-needs-a-credit-infrastructure-not-just-a-payments-layer\nComments URL: https://news.ycombinator.com/item?id=44469174\nPoints: 2\n# Comments: 0",
       "expert_analysis": true,
-      "final_reasoning": "While the article discusses a novel and potentially significant contribution to the field of machine learning, its overall quality, presentation, and audience value are not sufficient to meet the threshold for acceptance. The technical nature and lack of comprehensive coverage limit its appeal and utility. (Promoted to meet target count)",
-      "final_score": 68.33,
-      "id": "bec9bf21032ed4f57399f30b92630608",
-      "processed_at": "2025-07-05T01:22:09.244888+00:00",
-      "published_date": "2025-07-04T04:00:00+00:00",
+      "final_reasoning": "While the article has some unique perspectives and is relatively recent, its credibility and source are questionable, and its overall quality and audience value are average at best. The total score is below the threshold for acceptance. (Promoted to meet target count)",
+      "final_score": 60.83,
+      "id": "1b4845957bff21573733e0c6c30490bd",
+      "processed_at": "2025-07-05T04:24:42.545454+00:00",
+      "published_date": "2025-07-05T00:34:09+00:00",
       "ranking_priority": "LOW",
       "recommendation": "ACCEPT",
-      "source": "cs.LG updates on arXiv.org",
-      "source_id": "arxiv_ml",
-      "source_priority": 1,
+      "source": "Hacker News - Newest: \"\"AI\" \"machine\" \"learning\" \"startup\"\"",
+      "source_id": "hacker_news_ai",
+      "source_priority": 2,
       "stage1_filter": {
         "decision": "INCLUDE",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:28.228692+00:00",
-        "reason": "Default include (unclear response)"
+        "processed_at": "2025-07-05T04:23:06.383211+00:00",
+        "reason": "Discussion on AI prediction markets"
       },
       "stage2_decision": "ADVANCE",
       "stage2_reasoning": {
@@ -1304,157 +854,7 @@
       },
       "stage2_score": 88,
       "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:07.803298+00:00",
-        "audience_relevance": "important",
-        "category": "research",
-        "credibility": "high",
-        "expert_reasoning": "Efficient fine-tuning of geometric diffusion models",
-        "impact_level": "high",
-        "model": "llama-3.1-8b-instant",
-        "novelty": "novel",
-        "quality_score": 8.8,
-        "recommendation": "INCLUDE",
-        "stage": "stage3_expert"
-      },
-      "stage3_decision": "INCLUDE",
-      "stage4_evaluation": {
-        "audience_value": {
-          "reasoning": "The article provides some educational value for those interested in machine learning and geometric diffusion models. However, the information is highly technical and may not be actionable or useful for decision-making for a broad audience.",
-          "score": 65
-        },
-        "credibility_source": {
-          "reasoning": "The article is sourced from arXiv.org, which is a reputable platform for scientific preprints. However, the credibility of the specific article depends on the quality of the research, which is not fully evaluated here.",
-          "score": 70
-        },
-        "final_reasoning": "While the article discusses a novel and potentially significant contribution to the field of machine learning, its overall quality, presentation, and audience value are not sufficient to meet the threshold for acceptance. The technical nature and lack of comprehensive coverage limit its appeal and utility.",
-        "presentation_quality": {
-          "reasoning": "The headline is clear, but the article is essentially an abstract of a scientific paper, which is quite technical and not well-written for a broad audience. The coverage is not comprehensive, as it lacks detailed explanations and context.",
-          "score": 50
-        },
-        "ranking_priority": "LOW",
-        "recommendation": "REJECT",
-        "significance_impact": {
-          "reasoning": "The article discusses a new method for fine-tuning geometric diffusion models, which could have implications for molecular dynamics and structure generation. However, its global importance and long-term consequences are not immediately clear.",
-          "score": 60
-        },
-        "timeliness_relevance": {
-          "reasoning": "The article is based on a recent arXiv publication, indicating that it is a recent development in the field. The topic is relevant to current research in machine learning and geometric diffusion models.",
-          "score": 80
-        },
-        "total_score": 68.33,
-        "uniqueness_novelty": {
-          "reasoning": "The article presents a new framework (GeoAda) for fine-tuning geometric diffusion models, which appears to be a novel contribution to the field. The specific approach and its advantages are not widely covered in the provided text, but the topic seems unique.",
-          "score": 85
-        }
-      },
-      "title": "GeoAda: Efficiently Finetune Geometric Diffusion Models with Equivariant Adapters",
-      "url": "https://arxiv.org/abs/2507.02085"
-    },
-    {
-      "author": "Xiao Li, Liangji Zhu, Anand Rangarajan, Sanjay Ranka",
-      "category": "Research",
-      "collected_at": "2025-07-05T01:17:13.381003+00:00",
-      "compound_analysis": true,
-      "description": "arXiv:2507.02129v1 Announce Type: new \nAbstract: Generative models have demonstrated strong performance in conditional settings and can be viewed as a form of data compression, where the condition serves as a compact representation. However, their limited controllability and reconstruction accuracy restrict their practical application to data compression. In this work, we propose an efficient latent diffusion framework that bridges this gap by combining a variational autoencoder with a condition",
-      "expert_analysis": true,
-      "final_reasoning": "Although the article presents a novel approach to data reduction and is based on recent research, its overall score is below the threshold due to limitations in significance, credibility, audience value, and presentation quality. (Promoted to meet target count)",
-      "final_score": 68.33,
-      "id": "923735e332736773fdcb547047da70ae",
-      "processed_at": "2025-07-05T01:22:32.256734+00:00",
-      "published_date": "2025-07-04T04:00:00+00:00",
-      "ranking_priority": "LOW",
-      "recommendation": "ACCEPT",
-      "source": "cs.LG updates on arXiv.org",
-      "source_id": "arxiv_ml",
-      "source_priority": 1,
-      "stage1_filter": {
-        "decision": "INCLUDE",
-        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:30.443271+00:00",
-        "reason": "Novel neural network scaling dynamics research"
-      },
-      "stage2_decision": "ADVANCE",
-      "stage2_reasoning": {
-        "overall": "Filtered by compound analysis"
-      },
-      "stage2_score": 92,
-      "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:10.726284+00:00",
-        "audience_relevance": "important",
-        "category": "research",
-        "credibility": "high",
-        "expert_reasoning": "AI data compression advancements",
-        "impact_level": "moderate",
-        "model": "llama-3.1-8b-instant",
-        "novelty": "incremental",
-        "quality_score": 7.8,
-        "recommendation": "INCLUDE",
-        "stage": "stage3_expert"
-      },
-      "stage3_decision": "INCLUDE",
-      "stage4_evaluation": {
-        "audience_value": {
-          "reasoning": "The article has educational value for researchers and professionals in the field of machine learning and data compression. However, its actionable information and decision-making utility may be limited for a broader audience.",
-          "score": 65
-        },
-        "credibility_source": {
-          "reasoning": "The article is sourced from arXiv.org, a reputable online repository for electronic preprints in physics, mathematics, computer science, and related disciplines. However, the credibility of the specific article depends on the author's credentials and the quality of the research, which is not evaluated here.",
-          "score": 70
-        },
-        "final_reasoning": "Although the article presents a novel approach to data reduction and is based on recent research, its overall score is below the threshold due to limitations in significance, credibility, audience value, and presentation quality.",
-        "presentation_quality": {
-          "reasoning": "The article's headline is clear, but the text is somewhat technical and lacks comprehensive coverage for non-experts. The abstract is concise, but the overall presentation quality could be improved.",
-          "score": 50
-        },
-        "ranking_priority": "LOW",
-        "recommendation": "REJECT",
-        "significance_impact": {
-          "reasoning": "The article discusses a new latent diffusion framework for efficient spatiotemporal data reduction, which has potential applications in data compression. However, its global importance and long-term consequences are not immediately clear.",
-          "score": 60
-        },
-        "timeliness_relevance": {
-          "reasoning": "The article is based on a recent arXiv publication (2025-07-04), indicating that it is a recent development in the field of generative models and data compression.",
-          "score": 80
-        },
-        "total_score": 68.33,
-        "uniqueness_novelty": {
-          "reasoning": "The article proposes a new framework that combines a variational autoencoder with a condition, which appears to be a novel approach to improving the controllability and reconstruction accuracy of generative models.",
-          "score": 85
-        }
-      },
-      "title": "Generative Latent Diffusion for Efficient Spatiotemporal Data Reduction",
-      "url": "https://arxiv.org/abs/2507.02129"
-    },
-    {
-      "author": "Yanzhen Lu, Hanbin Yang, Xiaodie Wang, Ge Zhang, Biao Li, Chenxu Fu, Chao Li, Yang Yuan, Andrew Chi-Chih Yao",
-      "category": "Research",
-      "collected_at": "2025-07-05T01:17:13.238293+00:00",
-      "compound_analysis": true,
-      "description": "arXiv:2507.02541v1 Announce Type: new \nAbstract: In this work, we investigate whether improving task clarity can enhance reasoning ability of large language models, focusing on theorem proving in Coq. We introduce a concept-level metric to evaluate task clarity and show that adding structured semantic context to the standard input used by modern LLMs, leads to a 1.85$\\times$ improvement in clarity score (44.5\\%~$\\rightarrow$~82.3\\%). Using the general-purpose model \\texttt{DeepSeek-V3}, our appr",
-      "expert_analysis": true,
-      "final_reasoning": "While the article has some merits in terms of credibility, timeliness, and novelty, its overall score is dragged down by its limited significance and impact, audience value, and presentation quality. The total score is below the threshold for acceptance. (Promoted to meet target count)",
-      "final_score": 66.67,
-      "id": "434a23c8f00286144309de761f5422c2",
-      "processed_at": "2025-07-05T01:21:39.127810+00:00",
-      "published_date": "2025-07-04T04:00:00+00:00",
-      "ranking_priority": "LOW",
-      "recommendation": "ACCEPT",
-      "source": "cs.AI updates on arXiv.org",
-      "source_id": "arxiv_ai",
-      "source_priority": 1,
-      "stage1_filter": {
-        "decision": "INCLUDE",
-        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:21.549471+00:00",
-        "reason": "Autonomous biomolecular engineering breakthrough"
-      },
-      "stage2_decision": "ADVANCE",
-      "stage2_reasoning": {
-        "overall": "Filtered by compound analysis"
-      },
-      "stage2_score": 92,
-      "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:07.803262+00:00",
+        "analyzed_at": "2025-07-05T04:24:11.298355+00:00",
         "audience_relevance": "important",
         "category": "research",
         "credibility": "high",
@@ -1469,49 +869,49 @@
       "stage3_decision": "INCLUDE",
       "stage4_evaluation": {
         "audience_value": {
-          "reasoning": "The article's value is primarily educational and limited to a specialized audience interested in AI, formal verification, and Coq. It may not be directly actionable for a broad audience or decision-makers outside these fields.",
-          "score": 50
+          "reasoning": "The article provides some educational value for those interested in AI development, but its actionable information and decision-making utility may be limited for a general audience.",
+          "score": 65
         },
         "credibility_source": {
-          "reasoning": "The article is sourced from arXiv.org, which is a reputable platform for scientific preprints. The use of a specific model (DeepSeek-V3) and a clear description of the methodology adds to the credibility.",
-          "score": 80
+          "reasoning": "The source is a blog post on a personal website, which may not be considered a reputable or authoritative source by traditional news standards.",
+          "score": 40
         },
-        "final_reasoning": "While the article has some merits in terms of credibility, timeliness, and novelty, its overall score is dragged down by its limited significance and impact, audience value, and presentation quality. The total score is below the threshold for acceptance.",
+        "final_reasoning": "While the article has some unique perspectives and is relatively recent, its credibility and source are questionable, and its overall quality and audience value are average at best. The total score is below the threshold for acceptance.",
         "presentation_quality": {
-          "reasoning": "The headline is clear, and the description provides a concise abstract. However, the article's comprehensiveness is limited by its reliance on technical terms and the assumption of prior knowledge in the field.",
-          "score": 65
+          "reasoning": "The headline is clear, but the article's quality and comprehensiveness are difficult to assess without access to the full content.",
+          "score": 50
         },
         "ranking_priority": "LOW",
         "recommendation": "REJECT",
         "significance_impact": {
-          "reasoning": "The article discusses an improvement in theorem proving in Coq, which is a specialized area. While it may have implications for the field of AI and formal verification, its global importance and long-term consequences are limited to a specific audience.",
+          "reasoning": "The article discusses a specific aspect of AI development, which may have implications for the field, but its global importance and long-term consequences are not immediately clear.",
           "score": 60
         },
         "timeliness_relevance": {
-          "reasoning": "The article is based on a recent arXiv publication, indicating it is a recent development in the field. However, the timeliness is somewhat diminished because it is not 'breaking news' but rather a research update.",
+          "reasoning": "The article is relatively recent and pertains to current developments in AI, making it somewhat timely, but the topic may not be considered 'breaking news'.",
           "score": 70
         },
-        "total_score": 66.67,
+        "total_score": 60.83,
         "uniqueness_novelty": {
-          "reasoning": "The article presents a unique angle by focusing on improving task clarity for theorem proving in Coq. While not entirely new, the application of a concept-level metric and the specific approach taken offer a novel perspective.",
-          "score": 75
+          "reasoning": "The article presents a unique perspective on the need for a credit infrastructure in agentic AI, which may not be widely covered elsewhere.",
+          "score": 80
         }
       },
-      "title": "Clarifying Before Reasoning: A Coq Prover with Structural Context",
-      "url": "https://arxiv.org/abs/2507.02541"
+      "title": "Why Agentic AI Needs a Credit Infrastructure, Not Just a Payments Layer",
+      "url": "https://blog.zactownsend.com/why-agentic-ai-needs-a-credit-infrastructure-not-just-a-payments-layer"
     },
     {
-      "author": "mayakumar",
+      "author": "ghuntley",
       "category": "Community",
-      "collected_at": "2025-07-05T01:17:26.574956+00:00",
+      "collected_at": "2025-07-05T04:22:00.434108+00:00",
       "compound_analysis": true,
-      "description": "Article URL: https://vmayakumar.wordpress.com/2025/07/04/from-chatbots-to-ai-agents-understanding-modern-agentic-architectures/\nComments URL: https://news.ycombinator.com/item?id=44467846\nPoints: 3\n# Comments: 0",
+      "description": "Article URL: https://ghuntley.com/six-month-recap/\nComments URL: https://news.ycombinator.com/item?id=44468591\nPoints: 1\n# Comments: 0",
       "expert_analysis": true,
-      "final_reasoning": "While the article has some merits in terms of timeliness, audience value, and significance, its overall score is dragged down by concerns over credibility and source authority. The total score of 65 falls below the threshold for acceptance. (Promoted to meet target count)",
-      "final_score": 65,
-      "id": "57767b0654204858a291bf0908504889",
-      "processed_at": "2025-07-05T01:20:27.367579+00:00",
-      "published_date": "2025-07-04T20:59:33+00:00",
+      "final_reasoning": "The article's overall score is below the threshold of 70 due to its limited significance, uniqueness, and audience value. While it's somewhat timely and has a decent presentation quality, its credibility is affected by being a personal blog post. (Promoted to meet target count)",
+      "final_score": 60.83,
+      "id": "bb3d9da7b63bf0499b89532deb701dbb",
+      "processed_at": "2025-07-05T04:24:49.203257+00:00",
+      "published_date": "2025-07-04T22:49:59+00:00",
       "ranking_priority": "LOW",
       "recommendation": "ACCEPT",
       "source": "Hacker News - Newest: \"\"AI\" \"machine\" \"learning\" \"startup\"\"",
@@ -1520,176 +920,176 @@
       "stage1_filter": {
         "decision": "INCLUDE",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:18:52.796904+00:00",
-        "reason": "Innovative AI assistant integration platform"
+        "processed_at": "2025-07-05T04:23:10.630124+00:00",
+        "reason": "Default include (unclear response)"
       },
       "stage2_decision": "ADVANCE",
       "stage2_reasoning": {
         "overall": "Filtered by compound analysis"
       },
-      "stage2_score": 80,
+      "stage2_score": 70,
       "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:19:56.056682+00:00",
+        "analyzed_at": "2025-07-05T04:24:14.271394+00:00",
         "audience_relevance": "important",
         "category": "research",
         "credibility": "high",
-        "expert_reasoning": "Good overview of modern agentic architectures",
-        "impact_level": "moderate",
+        "expert_reasoning": "Important AI research development",
+        "impact_level": "significant",
         "model": "llama-3.1-8b-instant",
-        "novelty": "somewhat novel",
-        "quality_score": 7.8,
+        "novelty": "novel",
+        "quality_score": 8.5,
         "recommendation": "INCLUDE",
         "stage": "stage3_expert"
       },
       "stage3_decision": "INCLUDE",
       "stage4_evaluation": {
         "audience_value": {
-          "reasoning": "The article has educational value for readers interested in understanding AI agents and their architectures. It provides actionable information for those looking to grasp the concepts behind modern AI developments.",
-          "score": 75
+          "reasoning": "The article provides some educational value for those interested in AI, but its actionable information and decision-making utility are limited.",
+          "score": 50
         },
         "credibility_source": {
-          "reasoning": "The article is sourced from Hacker News, which is a community-driven platform. While it has a wide reach, the credibility of individual posts can vary greatly, and the author's blog is not a traditionally authoritative source.",
-          "score": 40
+          "reasoning": "The source is Hacker News, a reputable community-driven platform, but the article itself is a personal blog post, which may affect its credibility.",
+          "score": 70
         },
-        "final_reasoning": "While the article has some merits in terms of timeliness, audience value, and significance, its overall score is dragged down by concerns over credibility and source authority. The total score of 65 falls below the threshold for acceptance.",
+        "final_reasoning": "The article's overall score is below the threshold of 70 due to its limited significance, uniqueness, and audience value. While it's somewhat timely and has a decent presentation quality, its credibility is affected by being a personal blog post.",
         "presentation_quality": {
-          "reasoning": "The headline is clear, and the article is well-structured. However, the overall presentation quality might be affected by the source being a personal blog, which can vary in writing quality and comprehensiveness.",
+          "reasoning": "The headline is clear, and the writing is decent, but the comprehensiveness of the coverage is limited as it's a personal recap.",
           "score": 65
         },
         "ranking_priority": "LOW",
         "recommendation": "REJECT",
         "significance_impact": {
-          "reasoning": "The article discusses AI agents and modern agentic architectures, which is a significant topic in the tech industry, potentially impacting many people and having long-term consequences.",
-          "score": 70
+          "reasoning": "The article discusses a talk on AI, which is a significant topic, but its global importance is limited as it's a personal recap of a specific event.",
+          "score": 60
         },
         "timeliness_relevance": {
-          "reasoning": "The article was published recently and discusses current developments in AI, making it timely and relevant to the audience interested in tech and AI advancements.",
+          "reasoning": "The article is a recent recap of an event that occurred six months prior, making it somewhat timely, but not breaking news.",
           "score": 80
         },
-        "total_score": 65,
+        "total_score": 60.83,
         "uniqueness_novelty": {
-          "reasoning": "The topic of AI agents is not entirely new but is gaining traction. The article provides an overview, which may not be entirely novel but is still relevant and somewhat unique in its approach to explaining modern agentic architectures.",
-          "score": 60
+          "reasoning": "The article doesn't offer a unique angle or exclusive reporting; it's a personal recap of a talk, which may not be novel to the audience.",
+          "score": 40
         }
       },
-      "title": "From Chatbots to AI Agents: Understanding Modern Agentic Architectures",
-      "url": "https://vmayakumar.wordpress.com/2025/07/04/from-chatbots-to-ai-agents-understanding-modern-agentic-architectures/"
+      "title": "The six-month recap: closing talk on AI at Web Directions, Melbourne, June 2025",
+      "url": "https://ghuntley.com/six-month-recap/"
     },
     {
-      "author": "Junli Jiang, Pavel Naumov",
-      "category": "Research",
-      "collected_at": "2025-07-05T01:17:13.238449+00:00",
+      "author": "liurenju",
+      "category": "Community",
+      "collected_at": "2025-07-05T04:22:00.434372+00:00",
       "compound_analysis": true,
-      "description": "arXiv:2507.02582v1 Announce Type: new \nAbstract: Responsibility has long been a subject of study in law and philosophy. More recently, it became a focus of AI literature. The article investigates the computational complexity of two important properties of responsibility in collective decision-making: diffusion and gap. It shows that the sets of diffusion-free and gap-free decision-making mechanisms are $\\Pi_2$-complete and $\\Pi_3$-complete, respectively. At the same time, the intersection of the",
+      "description": "Article URL: https://github.com/liurenju/AiBase\nComments URL: https://news.ycombinator.com/item?id=44468543\nPoints: 2\n# Comments: 2",
       "expert_analysis": true,
-      "final_reasoning": "The article, while significant within its field, scores below the threshold due to its limited timeliness, audience value, and presentation quality. Its technical nature and specialized audience restrict its broader impact and relevance. (Promoted to meet target count)",
-      "final_score": 55,
-      "id": "e40a20bdcb75fa4f54d6e97a0cff8312",
-      "processed_at": "2025-07-05T01:21:55.954880+00:00",
-      "published_date": "2025-07-04T04:00:00+00:00",
+      "final_reasoning": "The article lacks significance, credibility, and presentation quality, making it unsuitable for acceptance as a news article. While it touches on relevant topics, its overall value and impact are limited. (Promoted to meet target count)",
+      "final_score": 41.67,
+      "id": "beb4a08b03f3ff0c843b35087a33b0e6",
+      "processed_at": "2025-07-05T04:24:46.019451+00:00",
+      "published_date": "2025-07-04T22:44:33+00:00",
       "ranking_priority": "LOW",
       "recommendation": "ACCEPT",
-      "source": "cs.AI updates on arXiv.org",
-      "source_id": "arxiv_ai",
-      "source_priority": 1,
+      "source": "Hacker News - Newest: \"\"AI\" \"machine\" \"learning\" \"startup\"\"",
+      "source_id": "hacker_news_ai",
+      "source_priority": 2,
       "stage1_filter": {
         "decision": "INCLUDE",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "processed_at": "2025-07-05T01:19:21.549489+00:00",
-        "reason": "Coq prover with structural context improvement"
+        "processed_at": "2025-07-05T04:23:10.630129+00:00",
+        "reason": "Default include (unclear response)"
       },
       "stage2_decision": "ADVANCE",
       "stage2_reasoning": {
         "overall": "Filtered by compound analysis"
       },
-      "stage2_score": 60,
+      "stage2_score": 92,
       "stage3_analysis": {
-        "analyzed_at": "2025-07-05T01:20:07.803280+00:00",
+        "analyzed_at": "2025-07-05T04:24:11.298397+00:00",
         "audience_relevance": "important",
-        "category": "research",
+        "category": "open_source",
         "credibility": "high",
-        "expert_reasoning": "AI responsibility in decision-making mechanisms",
+        "expert_reasoning": "Open source AI project, but not a significant breakthrough",
         "impact_level": "moderate",
         "model": "llama-3.1-8b-instant",
         "novelty": "incremental",
-        "quality_score": 7.8,
+        "quality_score": 7,
         "recommendation": "INCLUDE",
         "stage": "stage3_expert"
       },
       "stage3_decision": "INCLUDE",
       "stage4_evaluation": {
         "audience_value": {
-          "reasoning": "The article's value is primarily educational and research-oriented, targeting an audience with a background in AI, computational complexity, or related fields. Its utility for decision-making is limited to those within these specialized domains.",
+          "reasoning": "The article may provide some actionable information or educational value for those interested in AI and open-source projects, but its utility is limited by the lack of comprehensive details or analysis.",
           "score": 50
         },
         "credibility_source": {
-          "reasoning": "The article is sourced from arXiv.org, a reputable platform for electronic preprints in physics, mathematics, computer science, and related disciplines. The credibility of the source is high within the academic community, particularly for technical and research-oriented content.",
-          "score": 80
-        },
-        "final_reasoning": "The article, while significant within its field, scores below the threshold due to its limited timeliness, audience value, and presentation quality. Its technical nature and specialized audience restrict its broader impact and relevance.",
-        "presentation_quality": {
-          "reasoning": "The article's presentation is concise and technical, mirroring its origin as an abstract for an arXiv publication. While clear for experts, it lacks a comprehensive coverage or a clear headline that would make it accessible to a broader audience.",
+          "reasoning": "The source is Hacker News, which can be a reputable platform for tech discussions, but the article itself lacks authoritative sources or factual accuracy verification, and the points and comments suggest limited engagement or validation.",
           "score": 30
+        },
+        "final_reasoning": "The article lacks significance, credibility, and presentation quality, making it unsuitable for acceptance as a news article. While it touches on relevant topics, its overall value and impact are limited.",
+        "presentation_quality": {
+          "reasoning": "The headline is somewhat clear, but the overall presentation lacks a well-written article or comprehensive coverage, as it primarily serves as a pointer to an external GitHub project without summarizing or elaborating on its content.",
+          "score": 20
         },
         "ranking_priority": "LOW",
         "recommendation": "REJECT",
         "significance_impact": {
-          "reasoning": "The article discusses a significant topic in AI literature, specifically the computational complexity of responsibility in collective decision-making. However, its impact is limited to a specialized audience and may not have broad, immediate global importance or long-term consequences for the general public.",
-          "score": 60
-        },
-        "timeliness_relevance": {
-          "reasoning": "The article is based on a recent arXiv publication, but its relevance is mostly to researchers in the field of AI and computational complexity. It does not address a breaking news story or a recent development with immediate time-sensitive implications.",
+          "reasoning": "The article discusses an open-source idea related to AI backend complexity, which may be relevant to a specific community but lacks global importance or broad impact.",
           "score": 40
         },
-        "total_score": 55,
+        "timeliness_relevance": {
+          "reasoning": "The article is relatively recent and pertains to current interests in AI and machine learning, but it's not breaking news or a recent development that requires immediate attention.",
+          "score": 60
+        },
+        "total_score": 41.67,
         "uniqueness_novelty": {
-          "reasoning": "The article presents a unique analysis on the computational complexity of diffusion and gap in responsibility within collective decision-making mechanisms. While not entirely new, the specific angle and depth of analysis contribute to its novelty.",
-          "score": 70
+          "reasoning": "The article presents an open-source idea, which might be unique to some extent, but the lack of detailed information or exclusive reporting diminishes its novelty.",
+          "score": 50
         }
       },
-      "title": "Responsibility Gap and Diffusion in Sequential Decision-Making Mechanisms",
-      "url": "https://arxiv.org/abs/2507.02582"
+      "title": "Is AI back end complexity a pain point? Seeking feedback on an open source idea",
+      "url": "https://github.com/liurenju/AiBase"
     }
   ],
-  "collection_time_seconds": 261.5841736793518,
-  "count": 22,
-  "generated_at": "2025-07-05T01:18:33.940229+00:00",
+  "collection_time_seconds": 175.36425685882568,
+  "count": 14,
+  "generated_at": "2025-07-05T04:22:52.368617+00:00",
   "pipeline_info": {
-    "input_count": 293,
-    "output_count": 22,
-    "overall_pass_rate": 0.07508532423208192,
-    "processing_time": 261.5841736793518,
+    "input_count": 234,
+    "output_count": 14,
+    "overall_pass_rate": 0.05982905982905983,
+    "processing_time": 175.36425685882568,
     "stages": {
       "stage1_bulk_filter": {
         "input_count": 120,
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "output_count": 90,
-        "pass_rate": 0.75,
-        "processing_time": 52.92804551124573,
+        "output_count": 81,
+        "pass_rate": 0.675,
+        "processing_time": 52.669296741485596,
         "skipped": false
       },
       "stage2_compound": {
-        "input_count": 90,
+        "input_count": 81,
         "model": "gemma2-9b-it",
-        "output_count": 28,
-        "pass_rate": 0.3111111111111111,
-        "processing_time": 18.282129287719727,
+        "output_count": 25,
+        "pass_rate": 0.30864197530864196,
+        "processing_time": 17.825129985809326,
         "skipped": false
       },
       "stage3_expert": {
-        "input_count": 28,
+        "input_count": 25,
         "model": "llama-3.1-8b-instant",
-        "output_count": 22,
-        "pass_rate": 0.7857142857142857,
-        "processing_time": 18.529330730438232,
+        "output_count": 14,
+        "pass_rate": 0.56,
+        "processing_time": 18.76062536239624,
         "skipped": false
       },
       "stage4_final": {
-        "input_count": 22,
+        "input_count": 14,
         "model": "meta-llama/llama-4-maverick-17b-128e-instruct",
-        "output_count": 22,
+        "output_count": 14,
         "pass_rate": 0,
-        "processing_time": 164.75247740745544,
+        "processing_time": 81.65194606781006,
         "skipped": false
       }
     },
